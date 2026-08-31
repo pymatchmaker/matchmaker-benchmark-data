@@ -40,10 +40,10 @@ This is the licence that obliges the repository as a whole to be CC BY-NC-SA
 
 | Folder | Files | Origin |
 | --- | --- | --- |
-| `audio/` | 42 mp3 | MAESTRO recordings, converted to mp3 |
-| `midi/` | 42 | ASAP performance MIDI |
-| `score/` | 24 MusicXML | ASAP scores |
-| `match/` | 42 | Note-level alignments |
+| `audio/` | 32 mp3 | MAESTRO recordings, converted to mp3 |
+| `midi/` | 32 | ASAP performance MIDI |
+| `score/` | 20 MusicXML | ASAP scores |
+| `match/` | 32 | Note-level alignments |
 
 Filenames flatten the original ASAP directory structure:
 `Bach/Fugue/bwv_858/Zhang01M.mid` → `midi/Bach_Fugue_bwv_858_Zhang01M.mid`.

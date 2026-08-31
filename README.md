@@ -1,9 +1,15 @@
 # Matchmaker benchmark data
 
-Audio, MIDI, scores and note-level ground-truth alignments for **166
+Audio, MIDI, scores and note-level ground-truth alignments for **146
 performances** of Western classical piano music — the evaluation data behind
 the [matchmaker benchmark](https://github.com/pymatchmaker/matchmaker_benchmark)
 for real-time score following.
+
+These files are the performances against which score-followers in the matchmaker 
+framework are evaluated for the benchmark. For this reason, any new score-followers 
+submitting to the matchmaker benchmark should **NOT** train their models on these 
+performances. Users can use the data within the `experiment` branch of this repository 
+to test, fine-tune and improve their score-followers.
 
 [![Licence: CC BY-NC-SA 4.0](https://img.shields.io/badge/licence-CC%20BY--NC--SA%204.0-1f6b4f)](LICENSE.md)
 
@@ -12,22 +18,10 @@ to simplify the evaluation of various score following methods against three
 existing corpora — (n)ASAP, Batik-plays-Mozart and the Vienna 4x22 Piano
 Corpus — through the Matchmaker infrastructure.
 
-The `main` branch of this repository contains data pertaining to a total of 
-166 piano  performances from the three corpora. The matchmaker benchmark utilizes 
-the data from the `benchmark` branch of this repository in order to 
-evaluate the different score-followers, including future submissions to the 
-matchmaker benchmark repository (refer to the 
-[repository](https://github.com/pymatchmaker/matchmaker_benchmark) for 
-instructions on how to make your own submission). For that reason, any future 
-score-following implementation being submitted to the benchmark must not 
-train its score-follower on the data inside the `benchmark` branch of this 
-repository. Instead, users can use the performances within the `experiment` 
-branch of this repository while developing and fine-tuning their score-follower.
-
 
 | | |
 | --- | --- |
-| **Performances** | 166 (42 ASAP · 36 Batik · 88 Vienna) |
+| **Performances** | 146 (32 ASAP · 30 Batik · 84 Vienna) |
 | **Formats** | mp3 audio · performance MIDI · MusicXML scores · `.match` alignments |
 | **Size** | ~1.1 GB |
 | **Licence** | [CC BY-NC-SA 4.0](LICENSE.md) — attribution, non-commercial, share-alike |
