@@ -39,13 +39,11 @@ Perception are distributed under the same CC BY 4.0 terms.
 
 | Folder | Files | Origin |
 | --- | --- | --- |
-| `audio/` | 88 mp3 | Vienna 4x22 corpus recordings |
-| `midi/` | 88 | Performance MIDI |
+| `audio/` | 4 mp3 | Vienna 4x22 corpus recordings |
+| `midi/` | 4 | Performance MIDI |
 | `score/` | 4 MusicXML | Scores |
-| `match/` | 88 | Note-level alignments, match format version 1.0.0 |
+| `match/` | 4 | Note-level alignments, match format version 1.0.0 |
 
-The score count is lower than the performance count because the four excerpts
-are shared across all 22 performances.
 
 ## Citation
 

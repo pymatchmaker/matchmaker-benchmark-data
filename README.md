@@ -1,9 +1,12 @@
 # Matchmaker benchmark data
 
-Audio, MIDI, scores and note-level ground-truth alignments for **166
+Audio, MIDI, scores and note-level ground-truth alignments for **20
 performances** of Western classical piano music — the evaluation data behind
 the [matchmaker benchmark](https://github.com/pymatchmaker/matchmaker_benchmark)
-for real-time score following.
+for real-time score following. This data is intended to be used locally in the 
+user's machine in order to test the implementation of a score-follow and to also 
+fine-tune its parameters. The benchmark results do not take the results of these 
+performances into consideration.
 
 [![Licence: CC BY-NC-SA 4.0](https://img.shields.io/badge/licence-CC%20BY--NC--SA%204.0-1f6b4f)](LICENSE.md)
 
@@ -12,32 +15,19 @@ to simplify the evaluation of various score following methods against three
 existing corpora — (n)ASAP, Batik-plays-Mozart and the Vienna 4x22 Piano
 Corpus — through the Matchmaker infrastructure.
 
-The `main` branch of this repository contains data pertaining to a total of 
-166 piano  performances from the three corpora. The matchmaker benchmark utilizes 
-the data from the `benchmark` branch of this repository in order to 
-evaluate the different score-followers, including future submissions to the 
-matchmaker benchmark repository (refer to the 
-[repository](https://github.com/pymatchmaker/matchmaker_benchmark) for 
-instructions on how to make your own submission). For that reason, any future 
-score-following implementation being submitted to the benchmark must not 
-train its score-follower on the data inside the `benchmark` branch of this 
-repository. Instead, users can use the performances within the `experiment` 
-branch of this repository while developing and fine-tuning their score-follower.
-
 
 | | |
 | --- | --- |
-| **Performances** | 166 (42 ASAP · 36 Batik · 88 Vienna) |
+| **Performances** | 20 (10 ASAP · 6 Batik · 4 Vienna) |
 | **Formats** | mp3 audio · performance MIDI · MusicXML scores · `.match` alignments |
-| **Size** | ~1.1 GB |
 | **Licence** | [CC BY-NC-SA 4.0](LICENSE.md) — attribution, non-commercial, share-alike |
 
 ## Layout
 
 ```
-asap/     audio/  midi/  score/  match/   metadata-asap.csv    ATTRIBUTION.md
-batik/    audio/  midi/  score/  match/   metadata-batik.csv   ATTRIBUTION.md
-vienna/   audio/  midi/  score/  match/   metadata-vienna.csv  ATTRIBUTION.md
+asap/     audio/  midi/  score/  match/   ATTRIBUTION.md
+batik/    audio/  midi/  score/  match/   ATTRIBUTION.md
+vienna/   audio/  midi/  score/  match/   ATTRIBUTION.md
 ```
 
 | Folder | Contents |
@@ -54,10 +44,11 @@ kept.
 
 ## Read paths from the metadata
 
-`<dataset>/metadata-<dataset>.csv` is the authoritative index of its folder:
+`metadata-experiment.csv` is the authoritative index of its folder:
 
 | Column | Meaning |
 | --- | --- |
+| `dataset` | The dataset to which this performance belongs |
 | `audio` | Performance audio, relative to the dataset folder |
 | `score` | Score |
 | `midi` | Performance MIDI |

@@ -49,10 +49,10 @@ different recording conditions.
 
 | Folder | Files | Origin |
 | --- | --- | --- |
-| `audio/` | 36 mp3 | Disklavier recordings made at JKU from the corpus MIDI |
-| `midi/` | 36 | Performance MIDI from the corpus |
-| `score/` | 36 MusicXML | Scores from the corpus |
-| `match/` | 36 | Note-level alignments from the corpus |
+| `audio/` | 6 mp3 | Disklavier recordings made at JKU from the corpus MIDI |
+| `midi/` | 6 | Performance MIDI from the corpus |
+| `score/` | 6 MusicXML | Scores from the corpus |
+| `match/` | 6 | Note-level alignments from the corpus |
 
 ## Citation
 
