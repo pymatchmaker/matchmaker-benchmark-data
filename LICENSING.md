@@ -30,37 +30,25 @@ it is a separate work under its own licence.
 | `asap/` MIDI, scores, match | [CPJKU/asap-dataset](https://github.com/CPJKU/asap-dataset) | CC BY-NC-SA 4.0 |
 | `asap/audio` | [MAESTRO v2.0.0](https://magenta.tensorflow.org/datasets/maestro) | CC BY-NC-SA 4.0 |
 | `batik/` MIDI, scores, match | [huispaty/batik_plays_mozart](https://github.com/huispaty/batik_plays_mozart) | CC BY-NC-SA 4.0 |
-| `batik/audio` | Recorded at JKU on a Disklavier from the corpus MIDI | The institute's own recording, under the same licence |
+| `batik/audio` | Recorded at JKU on a Disklavier from the corpus MIDI | CC BY-NC-SA 4.0 |
 | `vienna/` all | [Vienna 4x22 Piano Corpus](http://dx.doi.org/10.21939/4X22) by Werner Goebl, via [CPJKU/vienna4x22](https://github.com/CPJKU/vienna4x22) | CC BY 4.0 |
+| `chorale/` all | [ChoraleBricks](https://github.com/stefan-balke/choralebricks) | MIT License |
+| `kraisler/` all | [KRAISLER](https://zenodo.org/records/21082251) | CC BY 4.0 |
+| `urmp/` all | [URMP](https://datadryad.org/dataset/doi:10.5061/dryad.ng3r749) | CC0 1.0 |
+| `winterreise/` all | [Schubert Winterreise Dataset](https://zenodo.org/records/4122060) | CC0 BY 3.0 Unported |
 
-Per-folder licence texts:
-[asap/LICENSE-CC-BY-NC-SA-4.0.md](asap/LICENSE-CC-BY-NC-SA-4.0.md),
-[batik/LICENSE-CC-BY-NC-SA-4.0.md](batik/LICENSE-CC-BY-NC-SA-4.0.md),
-[vienna/LICENSE-CC-BY-4.0.txt](vienna/LICENSE-CC-BY-4.0.txt).
+## Audio data sources for (n)ASAP and Batik Datasets
 
-## The audio has three different origins
-
-None of the three upstream corpora ships audio, so each dataset's recordings
-come from somewhere specific. This matters for how results are read, not only
-for attribution.
-
-**ASAP** — MAESTRO concert recordings, converted to mp3. ASAP's instructions
+**(n)ASAP** — MAESTRO concert recordings, converted to mp3. ASAP's instructions
 tell users to download MAESTRO and pair it with the performances; that step is
 already done here.
 
 **Batik** — the corpus performance MIDI replayed on a Yamaha Disklavier
-reproducing piano at the Institute of Computational Perception, JKU Linz, and
-recorded there. **Not** the commercial Roland Batik release. The timing and
-dynamics are Roland Batik's; the instrument, room and recording chain are the
-institute's. Uniform acoustics across the set, and audio synchronous with the
-MIDI by construction.
+reproducing piano at the Institute of Computational Perception, Johannes Kepler University, and
+recorded there. This is **not** the commercial Roland Batik release. The timing and
+dynamics are derived from Roland Batik's MIDI performances; the instrument, room and recording chain are the
+institute's.
 
-**Vienna** — the original Vienna 4x22 corpus recordings, collected by Werner
-Goebl and released under CC BY 4.0.
-
-A comparison of one method's audio numbers *across* the three datasets is
-partly a comparison of recording conditions. Comparing methods *within* a
-dataset is unaffected.
 
 ## Citing
 
@@ -75,7 +63,9 @@ is not a substitute — it contains no original scores or performances.
  journal = {Transactions of the International Society for Music Information Retrieval {(TISMIR)}},
  year = {2023}
 }
+```
 
+```bibtex
 @inproceedings{asap-dataset,
   title     = {{ASAP}: a dataset of aligned scores and performances for piano transcription},
   author    = {Foscarin, Francesco and McLeod, Andrew and Rigaux, Philippe and
@@ -83,7 +73,9 @@ is not a substitute — it contains no original scores or performances.
   booktitle = {International Society for Music Information Retrieval Conference (ISMIR)},
   year      = {2020}
 }
+```
 
+```bibtex
 @inproceedings{hawthorne2019maestro,
   title     = {Enabling Factorized Piano Music Modeling and Generation with the
                {MAESTRO} Dataset},
@@ -93,7 +85,9 @@ is not a substitute — it contains no original scores or performances.
   booktitle = {International Conference on Learning Representations (ICLR)},
   year      = {2019}
 }
+```
 
+```bibtex
 @inproceedings{hu2023batik,
   title     = {{The Batik-plays-Mozart Corpus: Linking Performance to Score to
                Musicological Annotations}},
@@ -113,6 +107,58 @@ is not a substitute — it contains no original scores or performances.
   howpublished = {\url{http://dx.doi.org/10.21939/4X22}},
   doi          = {10.21939/4X22},
   owner        = {mdw}
+}
+```
+
+```bibtex
+@article{BalkeBM24_ChoraleBricks,
+  author  = {Stefan Balke and Axel Berndt and Meinard M{\"u}ller},
+  title   = {{ChoraleBricks}: A Modular Multitrack Dataset for Wind Music Research},
+  journal = {Transactions of the International Society for Music Information Retrieval},
+  volume = {8},
+  number = {1},
+  pages = {39--54},
+  year = {2025},
+  doi = {10.5334/tismir.252}
+}
+```
+
+```bibtex
+@article{Kim-2026,
+ author = {Kim, Hyemi and Park, Jiyun and Lee, Sein and Kwon, Taegyun and Won, Sunjae and Nam, Juhan},
+ doi = {10.5334/tismir.338},
+ journal = {Transactions of the International Society for Music Information Retrieval},
+ keyword = {en},
+ month = {Aug},
+ title = {KRAISLER: A Multi‑Track Dataset of Piano and Violin Duet Recordings for Music Information Retrieval Research},
+ year = {2026}
+}
+```
+
+```bibtex
+@article{li2018creating,
+  title={Creating a multitrack classical music performance dataset for multimodal music analysis: Challenges, insights, and applications},
+  author={Li, Bochen and Liu, Xinzhao and Dinesh, Karthik and Duan, Zhiyao and Sharma, Gaurav},
+  journal={IEEE Transactions on Multimedia},
+  volume={21},
+  number={2},
+  pages={522--535},
+  year={2018},
+  publisher={IEEE},
+  doi={10.1109/TMM.2018.2856090}
+}
+```
+
+```bibtext
+@article{weiss2021schubert,
+  title={Schubert Winterreise dataset: A multimodal scenario for music analysis},
+  author={Weiss, Christof and Zalkow, Frank and Arifi-Muller, Vlora and Muller, Meinard and Koops, Hendrik Vincent and Volk, Anja and Grohganz, Harald G},
+  journal={Journal on Computing and Cultural Heritage (JOCCH)},
+  volume={14},
+  number={2},
+  pages={1--18},
+  year={2021},
+  publisher={ACM New York, NY, USA}
 }
 ```
 
