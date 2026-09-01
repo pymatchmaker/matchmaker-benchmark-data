@@ -1,29 +1,16 @@
 # Matchmaker benchmark data
 
-Audio, MIDI, scores and note-level ground-truth alignments for **166
+## Solo Piano Datasets
+
+Included are audio, MIDI, scores and note-level ground-truth alignments for **166
 performances** of Western classical piano music — the evaluation data behind
 the [matchmaker benchmark](https://github.com/pymatchmaker/matchmaker_benchmark)
-for real-time score following.
+for real-time score following. These datasets are: 
+- [(n)ASAP](https://github.com/CPJKU/asap-dataset) 
+- [Batik Plays Mozart](https://github.com/huispaty/batik_plays_mozart)
+- [Vienna 4x22 Corpus](https://github.com/CPJKU/vienna4x22)
 
 [![Licence: CC BY-NC-SA 4.0](https://img.shields.io/badge/licence-CC%20BY--NC--SA%204.0-1f6b4f)](LICENSE.md)
-
-This repository is not a new dataset, but offers a single location and structure 
-to simplify the evaluation of various score following methods against three 
-existing corpora — (n)ASAP, Batik-plays-Mozart and the Vienna 4x22 Piano
-Corpus — through the Matchmaker infrastructure.
-
-The `main` branch of this repository contains data pertaining to a total of 
-166 piano  performances from the three corpora. The matchmaker benchmark utilizes 
-the data from the `benchmark` branch of this repository in order to 
-evaluate the different score-followers, including future submissions to the 
-matchmaker benchmark repository (refer to the 
-[repository](https://github.com/pymatchmaker/matchmaker_benchmark) for 
-instructions on how to make your own submission). For that reason, any future 
-score-following implementation being submitted to the benchmark must not 
-train its score-follower on the data inside the `benchmark` branch of this 
-repository. Instead, users can use the performances within the `experiment` 
-branch of this repository while developing and fine-tuning their score-follower.
-
 
 | | |
 | --- | --- |
@@ -32,12 +19,54 @@ branch of this repository while developing and fine-tuning their score-follower.
 | **Size** | ~1.1 GB |
 | **Licence** | [CC BY-NC-SA 4.0](LICENSE.md) — attribution, non-commercial, share-alike |
 
+## Beyond Piano-Solo Datasets
+
+Four other datasets of music performances, along with their scores and alignment 
+annotations are also included in this collection, in order to test score-followers 
+against music-performance datasets that are not restricted to solo piano performances. 
+These datasets are: 
+- [ChoraleBricks](https://github.com/stefan-balke/choralebricks)
+- [KRAISLER](https://zenodo.org/records/21082251)
+- [URMP](https://datadryad.org/dataset/doi:10.5061/dryad.ng3r749)
+- [Schubert Winterreise Dataset](https://zenodo.org/records/4122060)
+
+## Note
+
+The `main` branch of this repository contains data pertaining to a total of 
+166 piano performances from the three solo-piano corpora and all the performances 
+from the beyond piano-solo datasets. The matchmaker benchmark however utilizes 
+146 of the piano-solo performances and all the beyond piano-solo performances 
+in the `benchmark` branch of this repository in order to 
+evaluate the different score-followers (including future submissions to the 
+matchmaker benchmark repository; refer to the 
+[repository](https://github.com/pymatchmaker/matchmaker_benchmark) for 
+instructions on how to make your own submission). For that reason, any future 
+score-following implementation being submitted to the benchmark must not 
+train its score-follower on the data inside the `main` or the `benchmark` branch of this 
+repository. Instead, users can use the performances within the `experiment` 
+branch of this repository while developing and fine-tuning their score-follower.
+
 ## Layout
+
+This repository is not a new dataset, but offers a single location and structure 
+to simplify the evaluation of various score following methods against all the 
+existing corpora through the Matchmaker infrastructure.
+
 
 ```
 asap/     audio/  midi/  score/  match/   metadata-asap.csv    ATTRIBUTION.md
+
 batik/    audio/  midi/  score/  match/   metadata-batik.csv   ATTRIBUTION.md
+
 vienna/   audio/  midi/  score/  match/   metadata-vienna.csv  ATTRIBUTION.md
+
+chorale/   audio/  score/  annotations/   metadata-chorale.csv
+
+urmp/   audio/  score/  annotations/   metadata-urmp.csv
+
+kraisler/   audio/  score/  annotations/   metadata-kraisler.csv
+
+winterreise/   audio/  score/  annotations/   metadata-winterreise.csv
 ```
 
 | Folder | Contents |
@@ -46,6 +75,7 @@ vienna/   audio/  midi/  score/  match/   metadata-vienna.csv  ATTRIBUTION.md
 | `midi/` | Performance MIDI |
 | `score/` | Scores, MusicXML |
 | `match/` | Note-level performance-to-score alignments, [match format](https://arxiv.org/abs/2206.01104) |
+| `annotations/` | TSV format performance-to-score alignments |
 
 Filenames flatten the corpora's original directory structures. For ASAP the
 path becomes the name — `Bach/Fugue/bwv_858/Zhang01M.mid` →
@@ -62,6 +92,7 @@ kept.
 | `score` | Score |
 | `midi` | Performance MIDI |
 | `match` | Note alignment |
+| `annotations` | Performance-to-score alignment |
 
 Take paths from these files rather than reconstructing them from a naming rule.
 That way the layout here can change without breaking anything downstream — the
@@ -84,40 +115,25 @@ python matchmaker_eval/fetch_data.py --fold eval --input-type audio
 git clone https://github.com/<owner>/<repo>.git ~/data
 ```
 
-## About the audio
+## Audio data sources for (n)ASAP and Batik Datasets
 
-None of the three source corpora distributes audio, so the recordings come from
-three different places:
+**(n)ASAP** — MAESTRO concert recordings, converted to mp3. ASAP's instructions
+tell users to download MAESTRO and pair it with the performances; that step is
+already done here.
 
-| Dataset | Recordings | Licence |
-| --- | --- | --- |
-| `asap/` | MAESTRO concert recordings — many pianists, instruments and halls | CC BY-NC-SA 4.0 |
-| `batik/` | The corpus MIDI replayed on a Disklavier reproducing piano at JKU and recorded there. **Not** the commercial Roland Batik release | CC BY-NC-SA 4.0 |
-| `vienna/` | The original Vienna 4x22 corpus recordings | CC BY 4.0 |
-
-Worth knowing when reading results: the Batik audio has uniform acoustics and
-is synchronous with its MIDI by construction, while the ASAP audio is varied
-concert recordings. Comparing one method's audio scores *across* datasets is
-partly comparing recording conditions. Comparing methods *within* a dataset is
-unaffected, and MIDI results are unaffected entirely.
+**Batik** — the corpus performance MIDI replayed on a Yamaha Disklavier
+reproducing piano at the Institute of Computational Perception, Johannes Kepler University, and
+recorded there. This is **not** the commercial Roland Batik release. The timing and
+dynamics are derived from Roland Batik's MIDI performances; the instrument, room and recording 
+chain are the institute's.
 
 ## Licence and credit
 
-[CC BY-NC-SA 4.0](LICENSE.md): use it, redistribute it, build on it — with
-attribution, not commercially, and share-alike.
-
 **Using this data means citing the corpora it comes from.** The citations are
 in [LICENSING.md](LICENSING.md) and, in full, in each dataset folder's
-`ATTRIBUTION.md`. Citing this repository is not a substitute: it contains no
-original scores or performances.
-
-- [asap/ATTRIBUTION.md](asap/ATTRIBUTION.md) — ASAP and MAESTRO (CC BY-NC-SA 4.0)
-- [batik/ATTRIBUTION.md](batik/ATTRIBUTION.md) — Batik-plays-Mozart (CC BY-NC-SA 4.0), and how the recordings were made
-- [vienna/ATTRIBUTION.md](vienna/ATTRIBUTION.md) — Vienna 4x22 by Werner Goebl (CC BY 4.0)
+`ATTRIBUTION.md`. Citing this repository is not a substitute.
 
 ## Acknowledgments
 
 This dataset exists because the authors of all three corpora made their work
-available. Thanks to the (n)ASAP authors, to the Magenta team for MAESTRO, to
-Patricia Hu and Gerhard Widmer for Batik-plays-Mozart, and to Werner Goebl and
-the Institute of Music Acoustics at mdw for the Vienna 4x22 Piano Corpus.
+available.
