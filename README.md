@@ -72,25 +72,21 @@ python matchmaker_eval/fetch_data.py --fold eval --input-type audio
 **Directly** — clone it and point `MATCHMAKER_DATA_DIR` at the result:
 
 ```bash
-git clone https://github.com/<owner>/<repo>.git ~/data
+git clone --branch experiment --single-branch \
+    https://github.com/pymatchmaker/matchmaker-benchmark-data.git
 ```
 
-## About the audio
+## Audio data sources for (n)ASAP and Batik Datasets
 
-None of the three source corpora distributes audio, so the recordings come from
-three different places:
+**(n)ASAP** — MAESTRO concert recordings, converted to mp3. ASAP's instructions
+tell users to download MAESTRO and pair it with the performances; that step is
+already done here.
 
-| Dataset | Recordings | Licence |
-| --- | --- | --- |
-| `asap/` | MAESTRO concert recordings — many pianists, instruments and halls | CC BY-NC-SA 4.0 |
-| `batik/` | The corpus MIDI replayed on a Disklavier reproducing piano at JKU and recorded there. **Not** the commercial Roland Batik release | CC BY-NC-SA 4.0 |
-| `vienna/` | The original Vienna 4x22 corpus recordings | CC BY 4.0 |
-
-Worth knowing when reading results: the Batik audio has uniform acoustics and
-is synchronous with its MIDI by construction, while the ASAP audio is varied
-concert recordings. Comparing one method's audio scores *across* datasets is
-partly comparing recording conditions. Comparing methods *within* a dataset is
-unaffected, and MIDI results are unaffected entirely.
+**Batik** — the corpus performance MIDI replayed on a Yamaha Disklavier
+reproducing piano at the Institute of Computational Perception, Johannes Kepler 
+University, and recorded there. This is **not** the commercial Roland Batik release. 
+The timing and dynamics are derived from Roland Batik's MIDI performances; the instrument, 
+room and recording chain are the institute's.
 
 ## Licence and credit
 
@@ -107,8 +103,13 @@ original scores or performances.
 - [vienna/ATTRIBUTION.md](vienna/ATTRIBUTION.md) — Vienna 4x22 by Werner Goebl (CC BY 4.0)
 
 ## Acknowledgments
+This work has been supported by the Austrian Science Fund (FWF), grant agreement 
+PAT 8820923 (Rach3: A Computational Approach to Study Piano Rehearsals) and PIN 1347924 
+(AURA: Augmenting musical interaction via EVAs), as well as by the European Research Council (ERC) 
+under the EU’s Horizon 2020 research & innovation programme, grant agreement 
+No.101019375 (Whither Music?), and by the National Research Foundation of Korea (NRF) grant 
+funded by the Korea government (MSIT) under Grant RS-2023-NR077289.
+
 
 This dataset exists because the authors of all three corpora made their work
-available. Thanks to the (n)ASAP authors, to the Magenta team for MAESTRO, to
-Patricia Hu and Gerhard Widmer for Batik-plays-Mozart, and to Werner Goebl and
-the Institute of Music Acoustics at mdw for the Vienna 4x22 Piano Corpus.
+available.

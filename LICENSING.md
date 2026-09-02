@@ -30,7 +30,7 @@ it is a separate work under its own licence.
 | `asap/` MIDI, scores, match | [CPJKU/asap-dataset](https://github.com/CPJKU/asap-dataset) | CC BY-NC-SA 4.0 |
 | `asap/audio` | [MAESTRO v2.0.0](https://magenta.tensorflow.org/datasets/maestro) | CC BY-NC-SA 4.0 |
 | `batik/` MIDI, scores, match | [huispaty/batik_plays_mozart](https://github.com/huispaty/batik_plays_mozart) | CC BY-NC-SA 4.0 |
-| `batik/audio` | Recorded at JKU on a Disklavier from the corpus MIDI | The institute's own recording, under the same licence |
+| `batik/audio` | Recorded at JKU on a Disklavier from the corpus MIDI | CC BY-NC-SA 4.0 |
 | `vienna/` all | [Vienna 4x22 Piano Corpus](http://dx.doi.org/10.21939/4X22) by Werner Goebl, via [CPJKU/vienna4x22](https://github.com/CPJKU/vienna4x22) | CC BY 4.0 |
 
 Per-folder licence texts:
@@ -38,29 +38,17 @@ Per-folder licence texts:
 [batik/LICENSE-CC-BY-NC-SA-4.0.md](batik/LICENSE-CC-BY-NC-SA-4.0.md),
 [vienna/LICENSE-CC-BY-4.0.txt](vienna/LICENSE-CC-BY-4.0.txt).
 
-## The audio has three different origins
+## Audio data sources for (n)ASAP and Batik Datasets
 
-None of the three upstream corpora ships audio, so each dataset's recordings
-come from somewhere specific. This matters for how results are read, not only
-for attribution.
-
-**ASAP** — MAESTRO concert recordings, converted to mp3. ASAP's instructions
+**(n)ASAP** — MAESTRO concert recordings, converted to mp3. ASAP's instructions
 tell users to download MAESTRO and pair it with the performances; that step is
 already done here.
 
 **Batik** — the corpus performance MIDI replayed on a Yamaha Disklavier
-reproducing piano at the Institute of Computational Perception, JKU Linz, and
-recorded there. **Not** the commercial Roland Batik release. The timing and
-dynamics are Roland Batik's; the instrument, room and recording chain are the
-institute's. Uniform acoustics across the set, and audio synchronous with the
-MIDI by construction.
-
-**Vienna** — the original Vienna 4x22 corpus recordings, collected by Werner
-Goebl and released under CC BY 4.0.
-
-A comparison of one method's audio numbers *across* the three datasets is
-partly a comparison of recording conditions. Comparing methods *within* a
-dataset is unaffected.
+reproducing piano at the Institute of Computational Perception, Johannes Kepler 
+University, and recorded there. This is **not** the commercial Roland Batik release. 
+The timing and dynamics are derived from Roland Batik's MIDI performances; the instrument, 
+room and recording chain are the institute's.
 
 ## Citing
 
