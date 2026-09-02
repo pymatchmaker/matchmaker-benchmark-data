@@ -134,6 +134,13 @@ in [LICENSING.md](LICENSING.md) and, in full, in each dataset folder's
 `ATTRIBUTION.md`. Citing this repository is not a substitute.
 
 ## Acknowledgments
+This work has been supported by the Austrian Science Fund (FWF), grant agreement 
+PAT 8820923 (Rach3: A Computational Approach to Study Piano Rehearsals) and PIN 1347924 
+(AURA: Augmenting musical interaction via EVAs), as well as by the European Research Council (ERC) 
+under the EU’s Horizon 2020 research & innovation programme, grant agreement 
+No.101019375 (Whither Music?), and by the National Research Foundation of Korea (NRF) grant 
+funded by the Korea government (MSIT) under Grant RS-2023-NR077289.
+
 
 This dataset exists because the authors of all three corpora made their work
 available.
