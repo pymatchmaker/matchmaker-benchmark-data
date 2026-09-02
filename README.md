@@ -23,7 +23,7 @@ to test, fine-tune and improve their score-followers.
 | --- | --- |
 | **Performances** | 146 (32 ASAP · 30 Batik · 84 Vienna) |
 | **Formats** | mp3 audio · performance MIDI · MusicXML scores · `.match` alignments |
-| **Size** | ~1.1 GB |
+| **Size** | ~885 MB |
 | **Licence** | [CC BY-NC-SA 4.0](LICENSE.md) — attribution, non-commercial, share-alike |
 
 ## Beyond Piano Solo Datasets
