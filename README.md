@@ -16,7 +16,7 @@ for real-time score following. These datasets are:
 | --- | --- |
 | **Performances** | 166 (42 ASAP · 36 Batik · 88 Vienna) |
 | **Formats** | mp3 audio · performance MIDI · MusicXML scores · `.match` alignments |
-| **Size** | ~1.1 GB |
+| **Size** | ~980 MB |
 | **Licence** | [CC BY-NC-SA 4.0](LICENSE.md) — attribution, non-commercial, share-alike |
 
 ## Beyond Piano-Solo Datasets
@@ -112,7 +112,7 @@ python matchmaker_eval/fetch_data.py --fold eval --input-type audio
 **Directly** — clone it and point `MATCHMAKER_DATA_DIR` at the result:
 
 ```bash
-git clone https://github.com/<owner>/<repo>.git ~/data
+git clone https://github.com/pymatchmaker/matchmaker-benchmark-data.git
 ```
 
 ## Audio data sources for (n)ASAP and Batik Datasets
