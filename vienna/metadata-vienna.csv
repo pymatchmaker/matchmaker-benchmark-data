@@ -1,4 +1,4 @@
-audio,score,midi,match,tempo
+audio,score,midi,match,estimated_bpm
 vienna/audio/Chopin_op10_no3_p01.mp3,vienna/score/Chopin_op10_no3.musicxml,vienna/midi/Chopin_op10_no3_p01.mid,vienna/match/Chopin_op10_no3_p01.match,30
 vienna/audio/Chopin_op10_no3_p02.mp3,vienna/score/Chopin_op10_no3.musicxml,vienna/midi/Chopin_op10_no3_p02.mid,vienna/match/Chopin_op10_no3_p02.match,34
 vienna/audio/Chopin_op10_no3_p03.mp3,vienna/score/Chopin_op10_no3.musicxml,vienna/midi/Chopin_op10_no3_p03.mid,vienna/match/Chopin_op10_no3_p03.match,32
