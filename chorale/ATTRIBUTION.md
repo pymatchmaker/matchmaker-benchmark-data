@@ -22,8 +22,10 @@ This folder remains under the original corpus licence. The repository as a whole
 | Folder | Files | Origin |
 | --- | --- | --- |
 | `audio/` | 191 mp3 | ChoraleBricks multitrack performance recordings |
-| `score/` | 40 MusicXML | Original chorale scores |
+| `score/` | 61 MusicXML | Original chorale part scores, and 21 octave-shifted copies |
 | `annotations/` | 191 TSV | Performance-to-score alignment annotations |
+
+Each part score is shared by every instrument that plays the part, but the flute and baritone stems of part 01 sound an octave above or below the notated part, and the tuba stems of part 04 an octave below. For those 21 stems, `metadata-chorale.csv` points to a copy of the part score moved by that octave (`*_8va.musicxml`, `*_8vb.musicxml`); the copies differ from the original only in their pitches.
 
 The metadata index in `metadata-chorale.csv` is the authoritative list of the files in this folder.
 
