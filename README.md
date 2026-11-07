@@ -1,5 +1,30 @@
 # Matchmaker benchmark data
 
+## Branches and benchmark folds
+
+This repository keeps the complete collection and its development and evaluation
+subsets on separate branches.
+
+| Branch | Piano performances | Beyond-piano performances | Purpose |
+| --- | ---: | ---: | --- |
+| [`main`](https://github.com/pymatchmaker/matchmaker-benchmark-data/tree/main) | 166 | 343 | Complete collection |
+| [`valid`](https://github.com/pymatchmaker/matchmaker-benchmark-data/tree/valid) | 20 | 0 | Development and parameter tuning |
+| [`eval`](https://github.com/pymatchmaker/matchmaker-benchmark-data/tree/eval) | 146 | 343 | Final evaluation |
+
+The 166 piano performances in `main` comprise the 20 in `valid` and the 146 in
+`eval`, with no performance appearing in both subsets.
+Use `valid` to develop and tune score followers; do not train or tune on the
+performances in `eval`.
+Because `main` includes the evaluation performances, it is not a separate
+training set.
+
+The benchmark's piano `eval` fold and audio-only `beyond_piano` fold both read
+from the data repository's `eval` branch; its `valid` fold reads from `valid`.
+These mappings are defined in the benchmark's
+[`data/data_sources.yaml`](https://github.com/pymatchmaker/matchmaker_benchmark/blob/main/data/data_sources.yaml).
+See the [benchmark repository](https://github.com/pymatchmaker/matchmaker_benchmark)
+for submission instructions.
+
 ## Solo Piano Datasets
 
 Included are audio, MIDI, scores and note-level ground-truth alignments for **166
@@ -29,22 +54,6 @@ These datasets are:
 - [KRAISLER](https://zenodo.org/records/21082251)
 - [URMP](https://datadryad.org/dataset/doi:10.5061/dryad.ng3r749)
 - [Schubert Winterreise Dataset](https://zenodo.org/records/4122060)
-
-## Note
-
-The `main` branch of this repository contains data pertaining to a total of 
-166 piano performances from the three solo-piano corpora and all the performances 
-from the beyond piano-solo datasets. The matchmaker benchmark however utilizes 
-146 of the piano-solo performances and all the beyond piano-solo performances 
-in the `benchmark` branch of this repository in order to 
-evaluate the different score-followers (including future submissions to the 
-matchmaker benchmark repository; refer to the 
-[repository](https://github.com/pymatchmaker/matchmaker_benchmark) for 
-instructions on how to make your own submission). For that reason, any future 
-score-following implementation being submitted to the benchmark must not 
-train its score-follower on the data inside the `main` or the `benchmark` branch of this 
-repository. Instead, users can use the performances within the `experiment` 
-branch of this repository while developing and fine-tuning their score-follower.
 
 ## Layout
 
@@ -101,19 +110,43 @@ what makes it possible.
 
 ## Getting the data
 
-**With the benchmark** — individual files are fetched over HTTPS as needed, so
-no clone and no full download:
+**With the benchmark.** To fetch the piano evaluation fold, run the following
+from a checkout of the
+[benchmark repository](https://github.com/pymatchmaker/matchmaker_benchmark)
+with its Python environment installed.
+The fetcher downloads the files required for the selected fold and input type.
 
 ```bash
-export MATCHMAKER_DATA_DIR=~/data
+export MATCHMAKER_DATA_DIR=~/data/matchmaker-benchmark-data/eval
 python matchmaker_eval/fetch_data.py --fold eval --input-type audio
 ```
 
-**Directly** — clone it and point `MATCHMAKER_DATA_DIR` at the result:
+Use `--input-type midi` for piano MIDI data.
+For the beyond-piano data, use `--fold beyond_piano --input-type audio`.
+
+**Directly.** Clone the `main` branch and point `MATCHMAKER_DATA_DIR` at the
+clone destination:
 
 ```bash
-git clone https://github.com/pymatchmaker/matchmaker-benchmark-data.git
+git clone --branch main --single-branch \
+    https://github.com/pymatchmaker/matchmaker-benchmark-data.git \
+    ~/data/matchmaker-benchmark-data/main
+export MATCHMAKER_DATA_DIR=~/data/matchmaker-benchmark-data/main
 ```
+
+This destination is the Git repository root and contains the dataset folders
+such as `asap/`, `batik/`, and `vienna/`.
+Use a separate destination when cloning another data branch.
+
+## Updating shared data
+
+Changes on one branch do not automatically update the others.
+Apply a correction to every branch containing the affected file, while preserving
+the development and evaluation subsets.
+For example, a Winterreise score correction belongs in both `main` and `eval`;
+`valid` contains no Winterreise data.
+Transfer the affected file changes rather than combining the branches' data
+selections.
 
 ## Audio data sources for (n)ASAP and Batik Datasets
 
