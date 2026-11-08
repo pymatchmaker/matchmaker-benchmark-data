@@ -1245,6 +1245,13 @@
       "bytes": 43240,
       "source_name": "kv279-repetition-gt.tsv",
       "source_sha256": "fb5127b6c081cea81f5f336edd413d8ba7edf00a1f025706e4763c5a02884c69"
+    },
+    "files/d863d634ba27376f.tsv": {
+      "sha256": "d863d634ba27376f2ad8856917b9f871d5f263967e85101746bc40bbdbb4fcb6",
+      "bytes": 36004,
+      "source_name": "kv279-repetition-gt.tsv",
+      "annotation_note": "Duplicate performance note IDs resolved by occurrence order; every repeated visit retained.",
+      "supersedes": "files/fb5127b6c081cea8.tsv"
     }
   },
   "cases": [
@@ -2732,7 +2739,7 @@
       "paths": {
         "xml_score": "files/c6f81bb894c92d32.musicxml",
         "midi_performance": "files/5d7fd009874eb1c9.mid",
-        "match": "files/fb5127b6c081cea8.tsv"
+        "match": "files/d863d634ba27376f.tsv"
       },
       "unfold_score": true,
       "tempo": null
