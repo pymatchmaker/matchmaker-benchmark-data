@@ -16,5 +16,5 @@ its local paths and old evaluation settings are not used by the CI workflow.
 The public benchmark supplies the current common scoring rules.
 
 These derivative annotations follow the repository's CC BY-NC-SA 4.0 license.
-See the original corpus attribution in `../asap`, `../batik`, and `../vienna4x22`
+See the original corpus attribution in `../asap`, `../batik`, and `../vienna`
 and the repository's `LICENSING.md`.
