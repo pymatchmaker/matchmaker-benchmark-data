@@ -15,7 +15,7 @@ verifies SHA-256 before running a follower.
 
 The same input can occur in more than one suite. No aggregate combines all
 103 manifest rows. `unfold_score` and nominal tempo are explicit per case.
-All paths and annotations use performance seconds and score quarter-note beats;
+All paths and annotations use performance seconds and score denominator-note beats;
 the benchmark applies the score's meter when computing its musical-beat TR
 criterion. The frozen library and benchmark revision define the evaluation.
 
