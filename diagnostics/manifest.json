@@ -1,0 +1,2655 @@
+{
+  "schema_version": 1,
+  "files": {
+    "files/54cd1cd718f49c74.mp3": {
+      "sha256": "54cd1cd718f49c74945672b6e579999817b5c53a6f3b6502a2e804b6b1e13591",
+      "bytes": 7307709,
+      "source_name": "k279_2.wav",
+      "source_sha256": "01284a3cf94c7b50f120e1ba14726a3a632597f6ad9bd2a3d371d55da27d5edb"
+    },
+    "files/2b5076610ceae641.mp3": {
+      "sha256": "2b5076610ceae641cf289018badf66cca5c359ebe354b802f22257471d7fd534",
+      "bytes": 2112949,
+      "source_name": "bwv858-two_jump-m9-10_m17-27-bpm_65.wav",
+      "source_sha256": "020cbada2b06bda0126e8a7027d7197a56aafdda109abb842e330f5ff8c3a3fc"
+    },
+    "files/02c8eb8adf5ace6b.match": {
+      "sha256": "02c8eb8adf5ace6b04f4852785c584eccaaf313a73e35688df890c5e16d2a45d",
+      "bytes": 308475,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.10-deletion_ratio_0.00.match",
+      "source_sha256": "02c8eb8adf5ace6b04f4852785c584eccaaf313a73e35688df890c5e16d2a45d"
+    },
+    "files/e8dc8e8e603e6494.mp3": {
+      "sha256": "e8dc8e8e603e6494fd77151eb71f4015176cc5f8ff229655e0865319e763b64e",
+      "bytes": 3773567,
+      "source_name": "kv279_3-unchanged.wav",
+      "source_sha256": "04034f9cd5eb5a6949327c9d75be55d65cf054f436ba6512437feedfc94d72ea"
+    },
+    "files/0428e081b583d449.tsv": {
+      "sha256": "0428e081b583d449acdec68c13ecd612855007601889a99740cb567e9406ceba",
+      "bytes": 13222,
+      "source_name": "kv330_2-folded-gt.tsv",
+      "source_sha256": "0428e081b583d449acdec68c13ecd612855007601889a99740cb567e9406ceba"
+    },
+    "files/047e677b7e7ce1c5.tsv": {
+      "sha256": "047e677b7e7ce1c5df983f058b3a2d8f52b8ab6f6cd333527cecb7bb161c10ec",
+      "bytes": 22709,
+      "source_name": "kv331_3-folded-gt.tsv",
+      "source_sha256": "047e677b7e7ce1c5df983f058b3a2d8f52b8ab6f6cd333527cecb7bb161c10ec"
+    },
+    "files/055df401b8276a96.tsv": {
+      "sha256": "055df401b8276a96faeaa2be87a46143059b176d5fb0e48ad875a6592cc28791",
+      "bytes": 69619,
+      "source_name": "kv331_1-folded-gt.tsv",
+      "source_sha256": "055df401b8276a96faeaa2be87a46143059b176d5fb0e48ad875a6592cc28791"
+    },
+    "files/34cad72ca5b1fb74.mp3": {
+      "sha256": "34cad72ca5b1fb7460534d67cc5096a8b10665e6f22d90f92d52bdbcb4c5d136",
+      "bytes": 1034282,
+      "source_name": "performance.wav",
+      "source_sha256": "07c66789c9fc3f6e8dcf7a24e0657d14df716729fc607b3477297a63177acb5f"
+    },
+    "files/6c484fce937c146c.mp3": {
+      "sha256": "6c484fce937c146cd1d8556713398e6d7bc468936efa3769995c3d2488774dd1",
+      "bytes": 6307544,
+      "source_name": "k281_2.wav",
+      "source_sha256": "0899edcf5e6c5090684a2f9d779f8ba574a9dd261bd9d9312d6569465d06c810"
+    },
+    "files/0acb245079a16f01.mid": {
+      "sha256": "0acb245079a16f01a4423182a970574090a9e2c31f9b31422d00dc5530d1b928",
+      "bytes": 21075,
+      "source_name": "kv279_3-accel-ftype_lin-min_tempo_120-max_tempo_145.mid",
+      "source_sha256": "0acb245079a16f01a4423182a970574090a9e2c31f9b31422d00dc5530d1b928"
+    },
+    "files/0b0b111fae71a7cf.match": {
+      "sha256": "0b0b111fae71a7cf239733660f70e3cd93bf07b81ebb7029ff64f07855711f43",
+      "bytes": 295593,
+      "source_name": "kv279_3-sine-freq0.0625-min_tempo_60-max_tempo_168.match",
+      "source_sha256": "0b0b111fae71a7cf239733660f70e3cd93bf07b81ebb7029ff64f07855711f43"
+    },
+    "files/0bbbdf047b5b6805.mid": {
+      "sha256": "0bbbdf047b5b6805d8efaafbde873df590518b051bd2a813e35151c64ba9a67b",
+      "bytes": 24561,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.20-deletion_ratio_0.00.mid",
+      "source_sha256": "0bbbdf047b5b6805d8efaafbde873df590518b051bd2a813e35151c64ba9a67b"
+    },
+    "files/0e41629cab01458b.mid": {
+      "sha256": "0e41629cab01458bcbb01c918a04f9a5ebb1960e24f1f97136330941252c14c4",
+      "bytes": 21077,
+      "source_name": "kv279_3-rall-ftype_lin-min_tempo_120-max_tempo_145.mid",
+      "source_sha256": "0e41629cab01458bcbb01c918a04f9a5ebb1960e24f1f97136330941252c14c4"
+    },
+    "files/0feec5720e34561e.musicxml": {
+      "sha256": "0feec5720e34561efb7cce8df35b472b5f99d1fbc44397a0298bb488aa70f885",
+      "bytes": 2131939,
+      "source_name": "kv284_3.musicxml",
+      "source_sha256": "0feec5720e34561efb7cce8df35b472b5f99d1fbc44397a0298bb488aa70f885"
+    },
+    "files/101dbff83dbf4cc2.tsv": {
+      "sha256": "101dbff83dbf4cc285d39b0316a7002f05da37647d0431650ceb8008ddcde575",
+      "bytes": 12922,
+      "source_name": "kv280_2-folded-gt.tsv",
+      "source_sha256": "101dbff83dbf4cc285d39b0316a7002f05da37647d0431650ceb8008ddcde575"
+    },
+    "files/3d8a0c7d4b5aa340.mp3": {
+      "sha256": "3d8a0c7d4b5aa34000fbf74952d2d0f53af932def39ee4746b9fbd9ae71e19de",
+      "bytes": 3837174,
+      "source_name": "kv279_3-fumbles.wav",
+      "source_sha256": "10b7f2e5b4c251d32469f1ae6a4465409a7baff2557b7f8412030cf4c62c0970"
+    },
+    "files/14da0e4cb322c83c.mid": {
+      "sha256": "14da0e4cb322c83cb5d228f42da76911efb2c4647a3454f837bb3485da86762d",
+      "bytes": 21265,
+      "source_name": "kv279_3-sine-freq0.5000-min_tempo_110-max_tempo_150.mid",
+      "source_sha256": "14da0e4cb322c83cb5d228f42da76911efb2c4647a3454f837bb3485da86762d"
+    },
+    "files/64f5e7e64fc8a658.mp3": {
+      "sha256": "64f5e7e64fc8a658006fddaf3fc2b51edc9adebd9bf203cf25e3380c308abe34",
+      "bytes": 3252230,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.10-deletion_ratio_0.00.wav",
+      "source_sha256": "152f16f85818fc364abaceaaf7343bb529454b9603c7791198375724be3dd5c6"
+    },
+    "files/599b95b625009639.mp3": {
+      "sha256": "599b95b6250096393f2ceb0b16db0395271c995c99ecf8dbf9642e1f8248627b",
+      "bytes": 4534316,
+      "source_name": "kv279_3-sine-freq0.5000-min_tempo_60-max_tempo_168.wav",
+      "source_sha256": "16cd662bd00d48ad97500358ab87cd358ba185e081a64ae3430cf407f98d4898"
+    },
+    "files/178550c11cccb19a.tsv": {
+      "sha256": "178550c11cccb19ac61ee8a89c346f365fae5bb7696c24f32c170b91488637c8",
+      "bytes": 40246,
+      "source_name": "kv457_1-folded-gt.tsv",
+      "source_sha256": "178550c11cccb19ac61ee8a89c346f365fae5bb7696c24f32c170b91488637c8"
+    },
+    "files/182184851cd8301a.musicxml": {
+      "sha256": "182184851cd8301a01d7e0efcfee4513e55a77a841bfde4d6dbe23568583275f",
+      "bytes": 687464,
+      "source_name": "kv331_3.musicxml",
+      "source_sha256": "182184851cd8301a01d7e0efcfee4513e55a77a841bfde4d6dbe23568583275f"
+    },
+    "files/1a34cfde211050ef.mid": {
+      "sha256": "1a34cfde211050ef1c0b67eda4a47dad44d68a0f717550b657625ab987118f82",
+      "bytes": 21088,
+      "source_name": "kv279_3-step-freq0.5000-min_tempo_120-max_tempo_145.mid",
+      "source_sha256": "1a34cfde211050ef1c0b67eda4a47dad44d68a0f717550b657625ab987118f82"
+    },
+    "files/1c72cb037a85028f.mid": {
+      "sha256": "1c72cb037a85028f11efea71b194436dce22d6266f5bc29060115b1b81831ae5",
+      "bytes": 21559,
+      "source_name": "kv279_3-sine-freq0.5000-min_tempo_60-max_tempo_168.mid",
+      "source_sha256": "1c72cb037a85028f11efea71b194436dce22d6266f5bc29060115b1b81831ae5"
+    },
+    "files/1e756b31ec5b461c.mid": {
+      "sha256": "1e756b31ec5b461c171b3092b5abc84c85479f9f6ea28eaf5c22c21c677aad14",
+      "bytes": 20100,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.05.mid",
+      "source_sha256": "1e756b31ec5b461c171b3092b5abc84c85479f9f6ea28eaf5c22c21c677aad14"
+    },
+    "files/3b7bb6f8cb95238c.mp3": {
+      "sha256": "3b7bb6f8cb95238c524f7b8b035aa2d61455885f48cd0647f3dc521220f631db",
+      "bytes": 4311685,
+      "source_name": "kv279_3-accel-ftype_lin-min_tempo_60-max_tempo_168.wav",
+      "source_sha256": "2026bd940b642c6453fec03b964e6879cb9018350ba0e6892db0c630df7bac6e"
+    },
+    "files/21524977b4f7f241.musicxml": {
+      "sha256": "21524977b4f7f241621d4052c3c1f98681d3141dc8b049870997c2fce6528728",
+      "bytes": 537568,
+      "source_name": "kv283_2.musicxml",
+      "source_sha256": "21524977b4f7f241621d4052c3c1f98681d3141dc8b049870997c2fce6528728"
+    },
+    "files/22476650fb515195.mid": {
+      "sha256": "22476650fb515195fc6b4823175e9edc9adb171c99438fbb120f3a381fddf091",
+      "bytes": 6647,
+      "source_name": "performance.mid",
+      "source_sha256": "22476650fb515195fc6b4823175e9edc9adb171c99438fbb120f3a381fddf091"
+    },
+    "files/5f2bf7d217b86282.mp3": {
+      "sha256": "5f2bf7d217b862826a893a768ac1a4861f50c57a100abc8e630a28f7c2736640",
+      "bytes": 4925863,
+      "source_name": "k280_3.wav",
+      "source_sha256": "2309a36bae6ff29f449152ac2285fd04a5645a946d911873cb6d1c216117934d"
+    },
+    "files/240b9b83649b6c72.musicxml": {
+      "sha256": "240b9b83649b6c72fc097c7d3188b7bc0f3ba250c79646cedaa74a2f1c4e2f34",
+      "bytes": 1163901,
+      "source_name": "kv284_1.musicxml",
+      "source_sha256": "240b9b83649b6c72fc097c7d3188b7bc0f3ba250c79646cedaa74a2f1c4e2f34"
+    },
+    "files/241f533ad622c189.mid": {
+      "sha256": "241f533ad622c18990352714d0d6887cdd986b8bb7698b3bc73d8281477ca5b4",
+      "bytes": 21111,
+      "source_name": "kv279_3-sine-freq0.0625-min_tempo_120-max_tempo_145.mid",
+      "source_sha256": "241f533ad622c18990352714d0d6887cdd986b8bb7698b3bc73d8281477ca5b4"
+    },
+    "files/26f8f18aab931fa5.musicxml": {
+      "sha256": "26f8f18aab931fa507c390dd7b02d15ed84dab254eb3a1445739efdc76b4e881",
+      "bytes": 1155147,
+      "source_name": "kv533_3.musicxml",
+      "source_sha256": "26f8f18aab931fa507c390dd7b02d15ed84dab254eb3a1445739efdc76b4e881"
+    },
+    "files/29ea35368d82f6d5.match": {
+      "sha256": "29ea35368d82f6d5a9028cbd6f4f6838b6f04a27644c883cd4f4816c323c2b66",
+      "bytes": 295619,
+      "source_name": "kv279_3-sine-freq0.5000-min_tempo_60-max_tempo_168.match",
+      "source_sha256": "29ea35368d82f6d5a9028cbd6f4f6838b6f04a27644c883cd4f4816c323c2b66"
+    },
+    "files/2c7d6da53442beed.tsv": {
+      "sha256": "2c7d6da53442beed31471fa82dcc05bd9f1b5fd23cb7720287e9d9f1ddf344af",
+      "bytes": 30113,
+      "source_name": "kv281_3-folded-gt.tsv",
+      "source_sha256": "2c7d6da53442beed31471fa82dcc05bd9f1b5fd23cb7720287e9d9f1ddf344af"
+    },
+    "files/3090342fff2778dd.match": {
+      "sha256": "3090342fff2778dd7b4c7fe4fc7afb09ded4fc90567bc640fdde902a2bf914e0",
+      "bytes": 308147,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.10-deletion_ratio_0.00.match",
+      "source_sha256": "3090342fff2778dd7b4c7fe4fc7afb09ded4fc90567bc640fdde902a2bf914e0"
+    },
+    "files/94617ff5f5d54b9c.mp3": {
+      "sha256": "94617ff5f5d54b9c29297bffb4b309acd71d1c238fc84a2d12f0795a769df957",
+      "bytes": 6834392,
+      "source_name": "k457_1.wav",
+      "source_sha256": "325fc2d0342f5615a09aa4d7c97b602d5800d40bcb808c77c1bdcd334ebd539e"
+    },
+    "files/334475e693e712b8.tsv": {
+      "sha256": "334475e693e712b8539be724a6ff89fdf363b7e0ef604ce6dd7dd51a138cde3d",
+      "bytes": 34483,
+      "source_name": "kv332_1-folded-gt.tsv",
+      "source_sha256": "334475e693e712b8539be724a6ff89fdf363b7e0ef604ce6dd7dd51a138cde3d"
+    },
+    "files/33911fcc8d49dfe3.mid": {
+      "sha256": "33911fcc8d49dfe30c61a6c8a534e9c60be788e8984f7c517bddff12c28ca22d",
+      "bytes": 21244,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.01-deletion_ratio_0.00.mid",
+      "source_sha256": "33911fcc8d49dfe30c61a6c8a534e9c60be788e8984f7c517bddff12c28ca22d"
+    },
+    "files/372177424d256eb6.mid": {
+      "sha256": "372177424d256eb6ce179f54cb43cfcff274b87d89dde9caf7de3744b2a3b0f9",
+      "bytes": 21555,
+      "source_name": "kv279_3-rall-ftype_lin-min_tempo_60-max_tempo_168.mid",
+      "source_sha256": "372177424d256eb6ce179f54cb43cfcff274b87d89dde9caf7de3744b2a3b0f9"
+    },
+    "files/3866368365f886c0.match": {
+      "sha256": "3866368365f886c02e2c025922d95122da32218447811e1559c23a567b0176f7",
+      "bytes": 301470,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.05-deletion_ratio_0.00.match",
+      "source_sha256": "3866368365f886c02e2c025922d95122da32218447811e1559c23a567b0176f7"
+    },
+    "files/3ac6db943f0d226f.mid": {
+      "sha256": "3ac6db943f0d226f5c233ab1278c60e3c88a31b991d88c8b9e0cecb7c91997d1",
+      "bytes": 20875,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.01.mid",
+      "source_sha256": "3ac6db943f0d226f5c233ab1278c60e3c88a31b991d88c8b9e0cecb7c91997d1"
+    },
+    "files/3b7d27c06f957c5e.match": {
+      "sha256": "3b7d27c06f957c5e0d0528febb86f178f68b2dd9189c8928824f402244ddd8d6",
+      "bytes": 295020,
+      "source_name": "kv279_3-sine-freq0.0625-min_tempo_110-max_tempo_150.match",
+      "source_sha256": "3b7d27c06f957c5e0d0528febb86f178f68b2dd9189c8928824f402244ddd8d6"
+    },
+    "files/3ca895b92d4e5838.tsv": {
+      "sha256": "3ca895b92d4e58384dd52d213d4b868ead260c685e66b0e7570d3979e578080b",
+      "bytes": 35520,
+      "source_name": "kv533_3-folded-gt.tsv",
+      "source_sha256": "3ca895b92d4e58384dd52d213d4b868ead260c685e66b0e7570d3979e578080b"
+    },
+    "files/38db3076089eaaac.mp3": {
+      "sha256": "38db3076089eaaaceac1faf34caad7769b1637b3863d4a9ec79d8319d7f4cdff",
+      "bytes": 3773604,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.05.wav",
+      "source_sha256": "3f1c64e0a297614f71cd0261c844a7d19047d391193485760f6cd75670362b43"
+    },
+    "files/40853c0cb7158baa.musicxml": {
+      "sha256": "40853c0cb7158baa0930803d5c09c9ed8f3d6a352f3fa055f38218aff190d2c9",
+      "bytes": 603605,
+      "source_name": "kv280_3.musicxml",
+      "source_sha256": "40853c0cb7158baa0930803d5c09c9ed8f3d6a352f3fa055f38218aff190d2c9"
+    },
+    "files/416a4d4d87e067f7.musicxml": {
+      "sha256": "416a4d4d87e067f76d0d6a2d401dced5779ca176be0203a4d99b18660bc555ec",
+      "bytes": 1419837,
+      "source_name": "kv332_3.musicxml",
+      "source_sha256": "416a4d4d87e067f76d0d6a2d401dced5779ca176be0203a4d99b18660bc555ec"
+    },
+    "files/9860fcfb12b924b9.mp3": {
+      "sha256": "9860fcfb12b924b976f1da6c36ff68520c89d6a918bd6499f5c4dba63fe91ba7",
+      "bytes": 3248445,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.05.wav",
+      "source_sha256": "434949395e6e5726274554fe3729b58c7dca850b41ed99c4bbf8d04ab1249971"
+    },
+    "files/45b521d47c8dbdf7.tsv": {
+      "sha256": "45b521d47c8dbdf7350d1f9a29dfa2d46de05f1ecdb7feb7fbd2dbf218554da0",
+      "bytes": 22606,
+      "source_name": "kv282_1-folded-gt.tsv",
+      "source_sha256": "45b521d47c8dbdf7350d1f9a29dfa2d46de05f1ecdb7feb7fbd2dbf218554da0"
+    },
+    "files/49503f52a7b1dca8.tsv": {
+      "sha256": "49503f52a7b1dca81c7114c005cd77b8248a16e0eea687e99fa9295c7f4950ce",
+      "bytes": 96216,
+      "source_name": "kv284_3-folded-gt.tsv",
+      "source_sha256": "49503f52a7b1dca81c7114c005cd77b8248a16e0eea687e99fa9295c7f4950ce"
+    },
+    "files/499b246d1a426044.mid": {
+      "sha256": "499b246d1a426044494bad2bf01225155ae979f75e51d169a4f9a65a3073cb0f",
+      "bytes": 19110,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.10.mid",
+      "source_sha256": "499b246d1a426044494bad2bf01225155ae979f75e51d169a4f9a65a3073cb0f"
+    },
+    "files/d7c7bd018680b552.mp3": {
+      "sha256": "d7c7bd018680b55227bc4be74e0126b2e43cbd59a1003c7933668ed5798893c9",
+      "bytes": 3759026,
+      "source_name": "kv279_3-minus_10.wav",
+      "source_sha256": "4abf417817bf79e6990f6ec1a6bd7b67dcca3a3d20f336f18a7e7d32e3a18aa8"
+    },
+    "files/4af317a258e96700.tsv": {
+      "sha256": "4af317a258e96700cdc8621307072dc8df6a38c3464d87794c9acbde6216f188",
+      "bytes": 39555,
+      "source_name": "kv279_3-fumbles.tsv",
+      "source_sha256": "4af317a258e96700cdc8621307072dc8df6a38c3464d87794c9acbde6216f188"
+    },
+    "files/a4f3fd0d74521b3c.mp3": {
+      "sha256": "a4f3fd0d74521b3c82e1f9f3b732121024fee0e44a771f6c3388e6d9e4ffea03",
+      "bytes": 3529109,
+      "source_name": "kv279_3-sine-freq0.0625-min_tempo_110-max_tempo_150.wav",
+      "source_sha256": "50ef56ea2bf2c3f28016cf6f9e01a19a6f54f3815827ce05a4c3080e3f85e4ab"
+    },
+    "files/513dfc295934c2c6.mid": {
+      "sha256": "513dfc295934c2c621465c2c697114f5a53eff2480b3a54dadd1e92ace2bfc9d",
+      "bytes": 21509,
+      "source_name": "kv279_3-fumbles.mid",
+      "source_sha256": "513dfc295934c2c621465c2c697114f5a53eff2480b3a54dadd1e92ace2bfc9d"
+    },
+    "files/de49e49f1c0795dd.mp3": {
+      "sha256": "de49e49f1c0795dd74a34c15bf913ed7fe6c2eb0120fbbf7e225180ae6aa201a",
+      "bytes": 3255145,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.20-deletion_ratio_0.00.wav",
+      "source_sha256": "51476ff1d65d95d92c0d65398d8f9c183b1eb7981b1016cb2c137914eb400e29"
+    },
+    "files/519afe927bd0adeb.match": {
+      "sha256": "519afe927bd0adebbbaa8de59a0b3cf6968bcba6b2fa853d975af3e09dbe31ad",
+      "bytes": 301837,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.05-deletion_ratio_0.00.match",
+      "source_sha256": "519afe927bd0adebbbaa8de59a0b3cf6968bcba6b2fa853d975af3e09dbe31ad"
+    },
+    "files/35609c86d1aefe28.mp3": {
+      "sha256": "35609c86d1aefe281401ac29ee61c80c8e50510d0f2c9493ae60d47bf8b8efe9",
+      "bytes": 9229688,
+      "source_name": "k533_1.wav",
+      "source_sha256": "519d708fbf9a50a24705ecb5f03efec904560d61311216c7ffb4c05557c0d41c"
+    },
+    "files/52a6bd3e6ad7bb04.mid": {
+      "sha256": "52a6bd3e6ad7bb04dcec0c9c94e607454e2170bff4944879fcfc18b00ddd9e15",
+      "bytes": 17171,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.20.mid",
+      "source_sha256": "52a6bd3e6ad7bb04dcec0c9c94e607454e2170bff4944879fcfc18b00ddd9e15"
+    },
+    "files/54e789a2696d53c9.mid": {
+      "sha256": "54e789a2696d53c9044ce12b173b891040c736216cf68dbf53b60404f34f72bf",
+      "bytes": 21644,
+      "source_name": "kv279_3-step-freq0.0625-min_tempo_60-max_tempo_168.mid",
+      "source_sha256": "54e789a2696d53c9044ce12b173b891040c736216cf68dbf53b60404f34f72bf"
+    },
+    "files/5783a075838ec9df.mid": {
+      "sha256": "5783a075838ec9df9bed774e9ae14cedca1f5a0ca93ae05ce6d78a8c3bab3775",
+      "bytes": 17122,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.20.mid",
+      "source_sha256": "5783a075838ec9df9bed774e9ae14cedca1f5a0ca93ae05ce6d78a8c3bab3775"
+    },
+    "files/5953aa0cc182b450.mid": {
+      "sha256": "5953aa0cc182b450d877aee432a52aff128216a668e99f0e2db97e581d6d6cf1",
+      "bytes": 21936,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.05-deletion_ratio_0.00.mid",
+      "source_sha256": "5953aa0cc182b450d877aee432a52aff128216a668e99f0e2db97e581d6d6cf1"
+    },
+    "files/595405aed70528ca.musicxml": {
+      "sha256": "595405aed70528ca5b240406fe9036a28042c72f5e554b4a20c728241a7685cb",
+      "bytes": 1535901,
+      "source_name": "kv331_1.musicxml",
+      "source_sha256": "595405aed70528ca5b240406fe9036a28042c72f5e554b4a20c728241a7685cb"
+    },
+    "files/10d4f87213bafd6d.mp3": {
+      "sha256": "10d4f87213bafd6d3776b3b8cc7af52a0abace95c0e7e317d6d9a4a20255761a",
+      "bytes": 5112617,
+      "source_name": "kv279_3-step-freq0.5000-min_tempo_60-max_tempo_168.wav",
+      "source_sha256": "596c3a63832f6d355aec0b1db68258b2e6288044ed0ddf06bc6a27b7247225f3"
+    },
+    "files/172e425396e710d9.mp3": {
+      "sha256": "172e425396e710d91b538e7e4588e975070498291e4c292bf21266c3feb4b44f",
+      "bytes": 3453643,
+      "source_name": "kv279_3-sine-freq0.5000-min_tempo_120-max_tempo_145.wav",
+      "source_sha256": "5a1ab378d7521ff137270bd58ace783300d238e1db7eebda773b996ffed10fb8"
+    },
+    "files/5a5cb39da85afa3e.match": {
+      "sha256": "5a5cb39da85afa3ed6f8ff7e01836545b8170eacdfb45e5da42befdaf7a3dd7f",
+      "bytes": 295215,
+      "source_name": "kv279_3-detune.match",
+      "source_sha256": "5a5cb39da85afa3ed6f8ff7e01836545b8170eacdfb45e5da42befdaf7a3dd7f"
+    },
+    "files/4c88cb77b547bc0c.mp3": {
+      "sha256": "4c88cb77b547bc0c832e28cb870955b369576a78dfcda160b50dbeee40bb3b3c",
+      "bytes": 4474051,
+      "source_name": "kv279_3-sine-freq0.0625-min_tempo_60-max_tempo_168.wav",
+      "source_sha256": "5a636c01d4caea228e811a6e72e31cb8f8e2d188fe75d4462bfb9bdef88aa115"
+    },
+    "files/a1537dc9f55a4f62.mp3": {
+      "sha256": "a1537dc9f55a4f62efffa2205aa3b4c200c611c04ab6de1d63911d30299cc6ca",
+      "bytes": 5741446,
+      "source_name": "k284_1.wav",
+      "source_sha256": "5d03bd7c6949782485c31853667f70fbfe47faa2b1e1bf10891564c424253fb4"
+    },
+    "files/5d7fd009874eb1c9.mid": {
+      "sha256": "5d7fd009874eb1c908a280de89b4081728206841d459b4a7035177d1e704ee1d",
+      "bytes": 23458,
+      "source_name": "kv279_3-repetition-bpm_120.mid",
+      "source_sha256": "5d7fd009874eb1c908a280de89b4081728206841d459b4a7035177d1e704ee1d"
+    },
+    "files/5e5d96d210fb8611.match": {
+      "sha256": "5e5d96d210fb86111f97ba5d37886d5077489c96bc23d693ffd52d73305d03ff",
+      "bytes": 321927,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.20-deletion_ratio_0.00.match",
+      "source_sha256": "5e5d96d210fb86111f97ba5d37886d5077489c96bc23d693ffd52d73305d03ff"
+    },
+    "files/43cad43df6668a19.mp3": {
+      "sha256": "43cad43df6668a19bc9191819d826064462ea44ccdbc75b95f893e603f5b6e03",
+      "bytes": 3585508,
+      "source_name": "kv279_3-step-freq0.5000-min_tempo_110-max_tempo_150.wav",
+      "source_sha256": "6338febb31ed0f45583982eab5afa225ca4dbddb0c46907cf978ff0e86153d87"
+    },
+    "files/636f01af6b381505.tsv": {
+      "sha256": "636f01af6b38150507297766e7c4557bdc27eb578019c98c8a95f0e175fe5c22",
+      "bytes": 26620,
+      "source_name": "gt.tsv",
+      "source_sha256": "636f01af6b38150507297766e7c4557bdc27eb578019c98c8a95f0e175fe5c22"
+    },
+    "files/637fa5222f0f61e3.musicxml": {
+      "sha256": "637fa5222f0f61e3c624fe7eebffc45cd33ce58c9611a0ffb669fc7fdb059864",
+      "bytes": 1105059,
+      "source_name": "kv281_3.musicxml",
+      "source_sha256": "637fa5222f0f61e3c624fe7eebffc45cd33ce58c9611a0ffb669fc7fdb059864"
+    },
+    "files/d328955639dc5032.mp3": {
+      "sha256": "d328955639dc5032c34347ff5dd3c7e417441a0007735fd37cde30a4053e3d51",
+      "bytes": 3775884,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.10-deletion_ratio_0.00.wav",
+      "source_sha256": "63b97ab85a4a2a29c12c77699abd321c060cbff2200fe29558560653a4c3ac58"
+    },
+    "files/6441a6c4e91b8156.tsv": {
+      "sha256": "6441a6c4e91b8156590a8886c7ada254c4515f601a54e367c89a009ecb21f90a",
+      "bytes": 37058,
+      "source_name": "kv281_1-folded-gt.tsv",
+      "source_sha256": "6441a6c4e91b8156590a8886c7ada254c4515f601a54e367c89a009ecb21f90a"
+    },
+    "files/bd29aaa4690e08f2.mp3": {
+      "sha256": "bd29aaa4690e08f2d322bf1ecf1a8f61ced0e806e5d2a8d7eff233f764db5b3a",
+      "bytes": 8853504,
+      "source_name": "k333_1.wav",
+      "source_sha256": "68f4e3058c1a99bbf5c35643624b2a32104565fc2bee2edb65a6308ab7a76a3f"
+    },
+    "files/6a7751f0b73c1635.tsv": {
+      "sha256": "6a7751f0b73c16354ec21e3b9cca1863c1b2a1b44fb3b55a96c0f1e1262d060f",
+      "bytes": 18319,
+      "source_name": "kv282_2-folded-gt.tsv",
+      "source_sha256": "6a7751f0b73c16354ec21e3b9cca1863c1b2a1b44fb3b55a96c0f1e1262d060f"
+    },
+    "files/6aba92f3adf27bbb.mid": {
+      "sha256": "6aba92f3adf27bbb4fc4e445e58f0afad4acbc919f66193238bcd31394b99df2",
+      "bytes": 21075,
+      "source_name": "kv279_3-unchanged.mid",
+      "source_sha256": "6aba92f3adf27bbb4fc4e445e58f0afad4acbc919f66193238bcd31394b99df2"
+    },
+    "files/e9bfbfd688c68f17.mp3": {
+      "sha256": "e9bfbfd688c68f17919de3d7a05c270f01511ef9af9efb87e36a01d76a5a2c57",
+      "bytes": 3462650,
+      "source_name": "kv279_3-step-freq0.5000-min_tempo_120-max_tempo_145.wav",
+      "source_sha256": "6ad0f93587acce4e1ba6686cd32d5571808b4139990ecfa7efd6161c0428602a"
+    },
+    "files/6ca234b5d8001ba3.match": {
+      "sha256": "6ca234b5d8001ba3822041641ec1f7b95d2e1fb9c3ec3dee4c43b67c491fe8c4",
+      "bytes": 287126,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.10.match",
+      "source_sha256": "6ca234b5d8001ba3822041641ec1f7b95d2e1fb9c3ec3dee4c43b67c491fe8c4"
+    },
+    "files/e0d4b6bfb8ca8ac4.mp3": {
+      "sha256": "e0d4b6bfb8ca8ac4af900c7e3e99080f1944658cc737b429a0f057d3eb68b5ec",
+      "bytes": 3452421,
+      "source_name": "kv279_3-step-freq0.0625-min_tempo_120-max_tempo_145.wav",
+      "source_sha256": "6d21e0dbd0c38433e86f2fe6abb77c8126e6c42b1fcc3fee2a96bced15269735"
+    },
+    "files/6e1d9c430bffac9a.mid": {
+      "sha256": "6e1d9c430bffac9a49c8b5c62a77e079d76632755e4b5383b481f965968b646a",
+      "bytes": 24664,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.20-deletion_ratio_0.00.mid",
+      "source_sha256": "6e1d9c430bffac9a49c8b5c62a77e079d76632755e4b5383b481f965968b646a"
+    },
+    "files/7821e0c369f33145.mp3": {
+      "sha256": "7821e0c369f331459a3fda8ffd0814bca0d50381451e411424dc52fb4e8a05bd",
+      "bytes": 7473262,
+      "source_name": "k533_3.wav",
+      "source_sha256": "6fc996c7f0f19c5d1bc1f950469da3169a3e6973d898437432525ff79e572831"
+    },
+    "files/67081c85b2c67790.mp3": {
+      "sha256": "67081c85b2c677908956e0e3c85b121fea7bfbcfb5567806003377aaa140c3b5",
+      "bytes": 3768488,
+      "source_name": "kv279_3-plus_25.wav",
+      "source_sha256": "707f2fc07490a14e726be7110e31ad973bd4b2f29f07facaaa1c1de57628ebec"
+    },
+    "files/7106ab0ad06e6029.match": {
+      "sha256": "7106ab0ad06e60292587fe10fde3a9bc8ed54f69d540f68cad24ff5cdf2f02bb",
+      "bytes": 279389,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.20.match",
+      "source_sha256": "7106ab0ad06e60292587fe10fde3a9bc8ed54f69d540f68cad24ff5cdf2f02bb"
+    },
+    "files/712ea645644997c4.tsv": {
+      "sha256": "712ea645644997c4aaa6f850b7719441d0531fefc1459dda80e4a5cabd56381b",
+      "bytes": 49086,
+      "source_name": "kv332_3-folded-gt.tsv",
+      "source_sha256": "712ea645644997c4aaa6f850b7719441d0531fefc1459dda80e4a5cabd56381b"
+    },
+    "files/721c1f37b9053f9d.match": {
+      "sha256": "721c1f37b9053f9d1a46943d52cac2c1ce7c9c358a5e3ef294fddd833989776d",
+      "bytes": 321508,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.20-deletion_ratio_0.00.match",
+      "source_sha256": "721c1f37b9053f9d1a46943d52cac2c1ce7c9c358a5e3ef294fddd833989776d"
+    },
+    "files/728909514922a8c0.match": {
+      "sha256": "728909514922a8c04b279ce29933e2053c819cd7e8c0a7b7f5d3e95b334642de",
+      "bytes": 294874,
+      "source_name": "kv279_3-rall-ftype_lin-min_tempo_120-max_tempo_145.match",
+      "source_sha256": "728909514922a8c04b279ce29933e2053c819cd7e8c0a7b7f5d3e95b334642de"
+    },
+    "files/74aec1f918f8344a.mid": {
+      "sha256": "74aec1f918f8344a0a7b9c6fe14237b1c9561914381109c3f927d1db257a1f2f",
+      "bytes": 21245,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.01-deletion_ratio_0.00.mid",
+      "source_sha256": "74aec1f918f8344a0a7b9c6fe14237b1c9561914381109c3f927d1db257a1f2f"
+    },
+    "files/41f850360f0a2e24.mp3": {
+      "sha256": "41f850360f0a2e2427ab71126a966061ccfb4824a0f55529cc7e08fe84170837",
+      "bytes": 16890718,
+      "source_name": "k284_3.wav",
+      "source_sha256": "7553f7717d08f1c8d78d658ffad52ae4d76fd8a6b6fbae1888c526c6a46072c1"
+    },
+    "files/75fb119f911b32a2.musicxml": {
+      "sha256": "75fb119f911b32a2c29c51818ee0c025b74e03a9fb3471900c5ead4abfe24b89",
+      "bytes": 1313229,
+      "source_name": "kv333_1.musicxml",
+      "source_sha256": "75fb119f911b32a2c29c51818ee0c025b74e03a9fb3471900c5ead4abfe24b89"
+    },
+    "files/77f812273bb00f18.match": {
+      "sha256": "77f812273bb00f180a7554e7dab96b5fb534747e875d7347a67719d0ca74cade",
+      "bytes": 295038,
+      "source_name": "kv279_3-sine-freq0.5000-min_tempo_110-max_tempo_150.match",
+      "source_sha256": "77f812273bb00f180a7554e7dab96b5fb534747e875d7347a67719d0ca74cade"
+    },
+    "files/b790d00807d599a3.mp3": {
+      "sha256": "b790d00807d599a36d5421b58b165fb83559ea26aed0ed477dc48ab9ccea488a",
+      "bytes": 3774936,
+      "source_name": "kv279_3-minus_25.wav",
+      "source_sha256": "7a90fb6124622c316f3165a769cdb9dba5047683c11e29ff001f65add7f20319"
+    },
+    "files/7b3f80bf66359469.match": {
+      "sha256": "7b3f80bf663594693db3ec06a716b3c394458f76485d398a5fe6674941709d8a",
+      "bytes": 294990,
+      "source_name": "kv279_3-step-freq0.0625-min_tempo_120-max_tempo_145.match",
+      "source_sha256": "7b3f80bf663594693db3ec06a716b3c394458f76485d398a5fe6674941709d8a"
+    },
+    "files/affd351617ac8040.mp3": {
+      "sha256": "affd351617ac8040be61537224e2e248370c4d59ecfa12faf9bd0aae171645f0",
+      "bytes": 3923624,
+      "source_name": "k331_3.wav",
+      "source_sha256": "7b90703b5ecf7633181fba652b806fe85b790895fdb22bb906feacd8e5c2c671"
+    },
+    "files/7d04a0ec91ae2984.match": {
+      "sha256": "7d04a0ec91ae2984eebc8df5516712adef755780b4d31b7c8fecfe4872dc58e2",
+      "bytes": 291335,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.05.match",
+      "source_sha256": "7d04a0ec91ae2984eebc8df5516712adef755780b4d31b7c8fecfe4872dc58e2"
+    },
+    "files/809775542e1982da.match": {
+      "sha256": "809775542e1982dad5931dd13edb05270828de1a2f10891da284f43f28558c63",
+      "bytes": 296493,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.01-deletion_ratio_0.00.match",
+      "source_sha256": "809775542e1982dad5931dd13edb05270828de1a2f10891da284f43f28558c63"
+    },
+    "files/2528a86f5bd31679.mp3": {
+      "sha256": "2528a86f5bd31679b12aa9843ab87280ac357c76e5e149d31ed2c9b4d21d4093",
+      "bytes": 6448280,
+      "source_name": "k331_2.wav",
+      "source_sha256": "8105b8a7b88eec760ee652eb0efdf7f07b5bbfd8e59d580e948cc86ad9f39866"
+    },
+    "files/81dfa483427f082e.match": {
+      "sha256": "81dfa483427f082e3da18ebd1f7d9424027bcc8304f21f2272936468be536e36",
+      "bytes": 287398,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.10.match",
+      "source_sha256": "81dfa483427f082e3da18ebd1f7d9424027bcc8304f21f2272936468be536e36"
+    },
+    "files/8fceac8ddb73d147.mp3": {
+      "sha256": "8fceac8ddb73d1473a63e743a5a53707af5fb9069ffd2bba6b512ef6b4b6701d",
+      "bytes": 5027128,
+      "source_name": "kv279_3-step-freq0.0625-min_tempo_60-max_tempo_168.wav",
+      "source_sha256": "8217c3e834150c3875f24f16fa6262d34feed508953474d2bbdbf535d62ea931"
+    },
+    "files/8221d356d3f0e71d.tsv": {
+      "sha256": "8221d356d3f0e71d37207135bb2db9235184877cbc4014530715579b7a90eb48",
+      "bytes": 41136,
+      "source_name": "kv330_3-folded-gt.tsv",
+      "source_sha256": "8221d356d3f0e71d37207135bb2db9235184877cbc4014530715579b7a90eb48"
+    },
+    "files/880a6700d39b8ae1.musicxml": {
+      "sha256": "880a6700d39b8ae1c30cfc5f3581019438df7538792555ff066ec8ea7e6b6684",
+      "bytes": 412888,
+      "source_name": "Bach_Fugue_bwv_858_xml_score.musicxml",
+      "source_sha256": "880a6700d39b8ae1c30cfc5f3581019438df7538792555ff066ec8ea7e6b6684"
+    },
+    "files/89345670626dd747.tsv": {
+      "sha256": "89345670626dd747face6a4fcd0f2b2733963387a7ec34ece76a270f831010eb",
+      "bytes": 21716,
+      "source_name": "kv333_2-folded-gt.tsv",
+      "source_sha256": "89345670626dd747face6a4fcd0f2b2733963387a7ec34ece76a270f831010eb"
+    },
+    "files/9f9ff4f6935643fa.mp3": {
+      "sha256": "9f9ff4f6935643fa535e61b3f131391f376e4da5536b473ed0eb6c5af733a7a0",
+      "bytes": 6714536,
+      "source_name": "k332_1.wav",
+      "source_sha256": "897db99419a8592679a2809560b6f6cfafbab9accce2d6bafe5ab8e4e9f8e410"
+    },
+    "files/e5d0114495031f44.mp3": {
+      "sha256": "e5d0114495031f44cc1dbe199221c57436a21240e269709676298b97ac347779",
+      "bytes": 3254933,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.20.wav",
+      "source_sha256": "8a59c91c80d1aa5a2990fd3b5486463b2fc72037d21040ca45aaab1dcc6a6134"
+    },
+    "files/75add16af83cbbc6.mp3": {
+      "sha256": "75add16af83cbbc62d3e123acb68ff8e18ab33bb3ef6e4a32191815c3e09afb4",
+      "bytes": 3743531,
+      "source_name": "kv279_3-minus_50.wav",
+      "source_sha256": "8bc5b341844ea8eab8f9ff95f7d3e6c877faab82f30e0c07bcfbb056ec74dc89"
+    },
+    "files/8c477240a7c4007d.match": {
+      "sha256": "8c477240a7c4007d13f660020b6df301369db9174d69cc8ea1f995489c32b619",
+      "bytes": 295719,
+      "source_name": "kv279_3-step-freq0.0625-min_tempo_60-max_tempo_168.match",
+      "source_sha256": "8c477240a7c4007d13f660020b6df301369db9174d69cc8ea1f995489c32b619"
+    },
+    "files/8c7719eff8a4056a.musicxml": {
+      "sha256": "8c7719eff8a4056adcd273f3ad8b582a84ee9d95770110cd4047aa9d58de99d3",
+      "bytes": 712721,
+      "source_name": "kv333_2.musicxml",
+      "source_sha256": "8c7719eff8a4056adcd273f3ad8b582a84ee9d95770110cd4047aa9d58de99d3"
+    },
+    "files/f470daaa9864704a.mp3": {
+      "sha256": "f470daaa9864704a437f5a3fa6fefced7c6e839656129647e47d73e2df5eafc8",
+      "bytes": 3756816,
+      "source_name": "kv279_3-plus_10.wav",
+      "source_sha256": "8d9032da00741d3301d151ce2eb8c21cf3ca2f1f64f593c9ae71e7ce2d61dff8"
+    },
+    "files/8dec95179c78df0a.mid": {
+      "sha256": "8dec95179c78df0a32fad99a00ad4102bc199359c82dea3d2bd7c0b08539ce04",
+      "bytes": 21649,
+      "source_name": "kv279_3-sine-freq0.0625-min_tempo_60-max_tempo_168.mid",
+      "source_sha256": "8dec95179c78df0a32fad99a00ad4102bc199359c82dea3d2bd7c0b08539ce04"
+    },
+    "files/240599fe0a9d7aaa.mp3": {
+      "sha256": "240599fe0a9d7aaa9dd6290e91e70f00d1bad6399eae1cd0bc875c1372db12b6",
+      "bytes": 626532,
+      "source_name": "performance.wav",
+      "source_sha256": "8e1f791f00d2ccae141a8917c920ca7dcfdcdbdc779b1d8a07e812abc8b22d61"
+    },
+    "files/963450fbf9b9dfdb.mp3": {
+      "sha256": "963450fbf9b9dfdbf2c556b1dc5355e55a376168ee7187dd48e5e1385ce3e44e",
+      "bytes": 3439277,
+      "source_name": "kv279_3-accel-ftype_lin-min_tempo_120-max_tempo_145.wav",
+      "source_sha256": "8e3484eb13007c48045cd2d39081b7d938ff5f5d8be0a29cab872242ab76f253"
+    },
+    "files/90923763ec5bdb86.musicxml": {
+      "sha256": "90923763ec5bdb86141d47f88e40bc54d8d5ee41a7ba800265b156f4a9dd73c7",
+      "bytes": 1638999,
+      "source_name": "kv533_1.musicxml",
+      "source_sha256": "90923763ec5bdb86141d47f88e40bc54d8d5ee41a7ba800265b156f4a9dd73c7"
+    },
+    "files/922509cc80f4326a.tsv": {
+      "sha256": "922509cc80f4326a5b1a13296b14cdeee59d7ae66c35494ca9dfaed1af329b16",
+      "bytes": 48403,
+      "source_name": "kv333_1-folded-gt.tsv",
+      "source_sha256": "922509cc80f4326a5b1a13296b14cdeee59d7ae66c35494ca9dfaed1af329b16"
+    },
+    "files/927de54ce4a257da.match": {
+      "sha256": "927de54ce4a257da13200e833812da0d63dbe29a2a893bd6cfd082131393279e",
+      "bytes": 294995,
+      "source_name": "kv279_3-step-freq0.5000-min_tempo_120-max_tempo_145.match",
+      "source_sha256": "927de54ce4a257da13200e833812da0d63dbe29a2a893bd6cfd082131393279e"
+    },
+    "files/96989d2395cf6557.musicxml": {
+      "sha256": "96989d2395cf6557b633a7a3b0291708ad44a2dfbdf14b9928b921244cc4ea53",
+      "bytes": 1073279,
+      "source_name": "kv457_1.musicxml",
+      "source_sha256": "96989d2395cf6557b633a7a3b0291708ad44a2dfbdf14b9928b921244cc4ea53"
+    },
+    "files/740390f2f303b18d.mp3": {
+      "sha256": "740390f2f303b18d4b3e5ad9bb9623875f6219c4a435eac4b8ee0ba05275dc7a",
+      "bytes": 3547375,
+      "source_name": "kv279_3-sine-freq0.5000-min_tempo_110-max_tempo_150.wav",
+      "source_sha256": "9a8bf968d655be5e21af2171f5c415af114d2fa766e4b96472a970d20276171f"
+    },
+    "files/34210e8bbb1d46b3.mp3": {
+      "sha256": "34210e8bbb1d46b3d7b3126235a2715cd811d8d4384e04a282afac4ee39a0f4a",
+      "bytes": 4934407,
+      "source_name": "k281_1.wav",
+      "source_sha256": "9dad9c1d521685af8c5fd6d3cd065a559d76f47e46e9367a87ccf7547543a3c1"
+    },
+    "files/9e8c2eb7ede0a6eb.musicxml": {
+      "sha256": "9e8c2eb7ede0a6ebabe949cad75136d9596468b7605ce6be717031d2a0a549f7",
+      "bytes": 381113,
+      "source_name": "kv282_2.musicxml",
+      "source_sha256": "9e8c2eb7ede0a6ebabe949cad75136d9596468b7605ce6be717031d2a0a549f7"
+    },
+    "files/7cd9198358e5914f.mp3": {
+      "sha256": "7cd9198358e5914f57744b7ce1acf89cc847ada240022f5e6f1e684a6d41470b",
+      "bytes": 3248593,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.01.wav",
+      "source_sha256": "a043add01affa1295ed4d5595139e75e089459e79e42b43c423e020379f01971"
+    },
+    "files/a314ada48b91cd61.tsv": {
+      "sha256": "a314ada48b91cd61eed93cebff1bedd1e5529ab4c5e54c5c75d8061d0551ff47",
+      "bytes": 28222,
+      "source_name": "kv331_2-folded-gt.tsv",
+      "source_sha256": "a314ada48b91cd61eed93cebff1bedd1e5529ab4c5e54c5c75d8061d0551ff47"
+    },
+    "files/462e6fd475207689.mp3": {
+      "sha256": "462e6fd475207689a3397d4c0efcdac5f2f6a356a73617c4a3a1a7a21af5a093",
+      "bytes": 3566627,
+      "source_name": "kv279_3-step-freq0.0625-min_tempo_110-max_tempo_150.wav",
+      "source_sha256": "a402668873d4e3a5c987c97128e73470ea8142919445da4d3d2c3d2ec45624f5"
+    },
+    "files/f764470371b7acfc.mp3": {
+      "sha256": "f764470371b7acfc8d2680834ff7400f3ce9951db49e415492ad3086e3b01557",
+      "bytes": 14951192,
+      "source_name": "k331_1.wav",
+      "source_sha256": "a751f6f8910221cc64a0f00cdc6b12521fc066340d5b95d180f0ea848ef4912d"
+    },
+    "files/cfaa590c25b154a4.mp3": {
+      "sha256": "cfaa590c25b154a4414d1d2806fae7f1c8659540eefc855730674666b8c3c7a1",
+      "bytes": 6291799,
+      "source_name": "k280_2.wav",
+      "source_sha256": "a9b854be0ce0d3427dc8d7ca438d256dbe519bac7d1c5d64307ab86713a8cfb5"
+    },
+    "files/2884a428327c7b2c.mp3": {
+      "sha256": "2884a428327c7b2c78e4662aee39b38b58c5383d9166c08ec42d365ee2d77fc0",
+      "bytes": 6164686,
+      "source_name": "k330_3.wav",
+      "source_sha256": "a9bfd0a57f6f7ff9ed7a99974c9b6dca93059f8a74cfefbfc63b5c7889febbab"
+    },
+    "files/b4485194306755eb.mp3": {
+      "sha256": "b4485194306755eb6f47dc2dd6aac3910569b6e74b75e3863747dcf338f1d5d2",
+      "bytes": 3774112,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.01.wav",
+      "source_sha256": "a9f1371fb01518edad955c4ea6f891e9a3d2ffe4030353ac5b473486099f326c"
+    },
+    "files/065c7bebebd0137c.mp3": {
+      "sha256": "065c7bebebd0137c1e3978966cc846f61e76ddde86594ab2101c454b9541e073",
+      "bytes": 3250104,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.01-deletion_ratio_0.00.wav",
+      "source_sha256": "ab21e42bd019d4e8ed69508264ac2943c0f0c855ddc648fe0b12310ef8bf4442"
+    },
+    "files/ac119c13dafa2bc3.match": {
+      "sha256": "ac119c13dafa2bc3458757a193e9982f1459ea631e593c3c25f72ab287a08050",
+      "bytes": 279645,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.20.match",
+      "source_sha256": "ac119c13dafa2bc3458757a193e9982f1459ea631e593c3c25f72ab287a08050"
+    },
+    "files/ae95feb9e4126544.mp3": {
+      "sha256": "ae95feb9e412654478390f485f16dacf52f2552d1aa2e6b40ef1ce2065862834",
+      "bytes": 3443131,
+      "source_name": "kv279_3-sine-freq0.0625-min_tempo_120-max_tempo_145.wav",
+      "source_sha256": "acc0d4f2477e5126bee1bbad18acd1c976bf274752c0339c66b70e4e36e7cb1c"
+    },
+    "files/33a7c6724e360822.mp3": {
+      "sha256": "33a7c6724e360822367aa682e212b2f263dfd79135a2144c86916f632a471fe0",
+      "bytes": 8267950,
+      "source_name": "k282_1.wav",
+      "source_sha256": "ace7da18ad1f43026f50b142a9069d824b5e556a802e578e0e54778e726a0076"
+    },
+    "files/9123d35b6bd01e2b.mp3": {
+      "sha256": "9123d35b6bd01e2bae6544ba45cec2b97f708a0da3fdbe19ad0060be7c0b85dc",
+      "bytes": 7945688,
+      "source_name": "k333_2.wav",
+      "source_sha256": "b22696e180dac5722992e977c8c49facffbb87f4aa5286222df11bd7a48ad5f8"
+    },
+    "files/b28dce9abbc91c73.match": {
+      "sha256": "b28dce9abbc91c737a79bbeb3af7c9d07607e590be41bd4f24cd832aebaa5e16",
+      "bytes": 295726,
+      "source_name": "kv279_3-step-freq0.5000-min_tempo_60-max_tempo_168.match",
+      "source_sha256": "b28dce9abbc91c737a79bbeb3af7c9d07607e590be41bd4f24cd832aebaa5e16"
+    },
+    "files/b2c71afba63bdce1.tsv": {
+      "sha256": "b2c71afba63bdce12b885c454997554e8c3b27ef47c00560ff089c6d716daa60",
+      "bytes": 29256,
+      "source_name": "kv280_3-folded-gt.tsv",
+      "source_sha256": "b2c71afba63bdce12b885c454997554e8c3b27ef47c00560ff089c6d716daa60"
+    },
+    "files/a2a498107c975e64.mp3": {
+      "sha256": "a2a498107c975e64dabb5363d72aa943303cf20dd09d3a2e77e0665b9aa0feda",
+      "bytes": 4758440,
+      "source_name": "k281_3.wav",
+      "source_sha256": "b38b8d9855002c76337329ebcb7e07b7124e90ac849c08494ca378c675d93f67"
+    },
+    "files/b3aa45a1296b8fc4.mid": {
+      "sha256": "b3aa45a1296b8fc4ab09c501596d8b8f5fb94e2c8d56f65908e5a7a9f25f9640",
+      "bytes": 3925,
+      "source_name": "performance.mid",
+      "source_sha256": "b3aa45a1296b8fc4ab09c501596d8b8f5fb94e2c8d56f65908e5a7a9f25f9640"
+    },
+    "files/b3b9dd5fc0259853.musicxml": {
+      "sha256": "b3b9dd5fc0259853fbd34d8c9b47ae813b3fe06ad4402d8b2819ab1a2477a81f",
+      "bytes": 512796,
+      "source_name": "kv331_2.musicxml",
+      "source_sha256": "b3b9dd5fc0259853fbd34d8c9b47ae813b3fe06ad4402d8b2819ab1a2477a81f"
+    },
+    "files/b506bd86eeaae220.tsv": {
+      "sha256": "b506bd86eeaae220f82e3850c0318745af026d5befb814aeafb07a272a71add7",
+      "bytes": 42356,
+      "source_name": "kv330_1-folded-gt.tsv",
+      "source_sha256": "b506bd86eeaae220f82e3850c0318745af026d5befb814aeafb07a272a71add7"
+    },
+    "files/b6cbf93924617a6a.match": {
+      "sha256": "b6cbf93924617a6af67358183d23ce8e63d4c1ec712e7e7f10b521a9ee85992b",
+      "bytes": 294121,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.01.match",
+      "source_sha256": "b6cbf93924617a6af67358183d23ce8e63d4c1ec712e7e7f10b521a9ee85992b"
+    },
+    "files/b6dc8322e2027907.musicxml": {
+      "sha256": "b6dc8322e20279079b8757a5132050cffc6db304986dccca32f14f40d1d5e77c",
+      "bytes": 474295,
+      "source_name": "kv330_2.musicxml",
+      "source_sha256": "b6dc8322e20279079b8757a5132050cffc6db304986dccca32f14f40d1d5e77c"
+    },
+    "files/1be1bbdf72072001.mp3": {
+      "sha256": "1be1bbdf72072001d654c53a1b1810fd453c2c50335b45b3f295abb47956f757",
+      "bytes": 3774008,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.01-deletion_ratio_0.00.wav",
+      "source_sha256": "b7ad68fb633f7795d765f2d1a31658e8133910efaa9cc90fc064fd1c75d62ab0"
+    },
+    "files/b8e7329b6001627b.musicxml": {
+      "sha256": "b8e7329b6001627b6010a307a1513efd5c392caeb6c2dbcd2e21f2395d55b32a",
+      "bytes": 972173,
+      "source_name": "kv281_1.musicxml",
+      "source_sha256": "b8e7329b6001627b6010a307a1513efd5c392caeb6c2dbcd2e21f2395d55b32a"
+    },
+    "files/b9f19ad0046b0205.mid": {
+      "sha256": "b9f19ad0046b0205076ba046fb5b647d73d69e5d90ed9de13f6c1c0729191c58",
+      "bytes": 22785,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.10-deletion_ratio_0.00.mid",
+      "source_sha256": "b9f19ad0046b0205076ba046fb5b647d73d69e5d90ed9de13f6c1c0729191c58"
+    },
+    "files/bd01ec0df96a48d3.mid": {
+      "sha256": "bd01ec0df96a48d3bd0c05cf1c5ba0e9857534d39cedb954cd46394cf4f49cfa",
+      "bytes": 21119,
+      "source_name": "kv279_3-sine-freq0.5000-min_tempo_120-max_tempo_145.mid",
+      "source_sha256": "bd01ec0df96a48d3bd0c05cf1c5ba0e9857534d39cedb954cd46394cf4f49cfa"
+    },
+    "files/bd08466ca21741a6.tsv": {
+      "sha256": "bd08466ca21741a6e761efacdbd435f425153f1c4580a3d09528e24565ea02ab",
+      "bytes": 65881,
+      "source_name": "kv533_1-folded-gt.tsv",
+      "source_sha256": "bd08466ca21741a6e761efacdbd435f425153f1c4580a3d09528e24565ea02ab"
+    },
+    "files/ea2560f9b6f0e999.mp3": {
+      "sha256": "ea2560f9b6f0e99959ce4e7f0136494f5bb2b855e73f82f043105c648136a517",
+      "bytes": 8918542,
+      "source_name": "k283_2.wav",
+      "source_sha256": "bfe199501a5ac64b67bb37c0ee6b14ef743c6fefce29f9de18766a2f13e6237e"
+    },
+    "files/0dcb72bdd8c4d990.mp3": {
+      "sha256": "0dcb72bdd8c4d990482f3a7df2b3b147be16fb1c600c6012b97c592dab0504b8",
+      "bytes": 3249396,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.10.wav",
+      "source_sha256": "c07f96af17fa40bc978ed415abf465f0157374e8ce6cafc7f63378947c125906"
+    },
+    "files/c352dd7ffdb0c142.match": {
+      "sha256": "c352dd7ffdb0c142b03200d86000c238d8f14c99f0577c1ca55e9170dc43fbb6",
+      "bytes": 294452,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.01.match",
+      "source_sha256": "c352dd7ffdb0c142b03200d86000c238d8f14c99f0577c1ca55e9170dc43fbb6"
+    },
+    "files/c387cff4089395d3.match": {
+      "sha256": "c387cff4089395d3e53becd3a3c69046e4eac2bccfb2ea659f8b696eb71c9e50",
+      "bytes": 291006,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.05.match",
+      "source_sha256": "c387cff4089395d3e53becd3a3c69046e4eac2bccfb2ea659f8b696eb71c9e50"
+    },
+    "files/c50fc2d6d0966983.mid": {
+      "sha256": "c50fc2d6d0966983eb3e6e1bba75416361cc6aead703fe58664a2ed4e30a4717",
+      "bytes": 19108,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.10.mid",
+      "source_sha256": "c50fc2d6d0966983eb3e6e1bba75416361cc6aead703fe58664a2ed4e30a4717"
+    },
+    "files/609e890cd4206317.mp3": {
+      "sha256": "609e890cd4206317b19593f28e0018b0ce42b3456793a1002cf9692661f5549d",
+      "bytes": 3251090,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.05-deletion_ratio_0.00.wav",
+      "source_sha256": "c6e9f93344b6845b0859fedccaa21ce2d45e88efe31a108034dbd8bd2f5e0014"
+    },
+    "files/c6f81bb894c92d32.musicxml": {
+      "sha256": "c6f81bb894c92d32f98086af99abd8357cc6577fe6eb77fb811abe94ca43fc2a",
+      "bytes": 685917,
+      "source_name": "kv279_3.musicxml",
+      "source_sha256": "c6f81bb894c92d32f98086af99abd8357cc6577fe6eb77fb811abe94ca43fc2a"
+    },
+    "files/26a66b2c0d8285e2.mp3": {
+      "sha256": "26a66b2c0d8285e2529219a20af52aec0bc9d290597bcdde83b08a0392543fba",
+      "bytes": 3782534,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.20-deletion_ratio_0.00.wav",
+      "source_sha256": "c9bfae3ffe18240c26048fb55f03bd695f978a7b0b1cdf640c30c9ce444f5e5b"
+    },
+    "files/cbaa60621cef51dc.match": {
+      "sha256": "cbaa60621cef51dc6bc528dddff9a33ae5b38ce104c299bda50ffb7e81f64a73",
+      "bytes": 294994,
+      "source_name": "kv279_3-sine-freq0.5000-min_tempo_120-max_tempo_145.match",
+      "source_sha256": "cbaa60621cef51dc6bc528dddff9a33ae5b38ce104c299bda50ffb7e81f64a73"
+    },
+    "files/cd66eb7d2556d95c.match": {
+      "sha256": "cd66eb7d2556d95cc841363774d84ca7d64eaa0ff2dfaf827b4884c8875ad379",
+      "bytes": 294984,
+      "source_name": "kv279_3-sine-freq0.0625-min_tempo_120-max_tempo_145.match",
+      "source_sha256": "cd66eb7d2556d95cc841363774d84ca7d64eaa0ff2dfaf827b4884c8875ad379"
+    },
+    "files/8805851550f1818c.mp3": {
+      "sha256": "8805851550f1818c59d7df59c2dc96346fc6dc85532123e916784215a14bc242",
+      "bytes": 3772701,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.10.wav",
+      "source_sha256": "cdc16bd47152332d05d47793c3f92a1ee40dc03ae41508c5d59990aa5a01dc0f"
+    },
+    "files/ce1364c4155de0c0.mid": {
+      "sha256": "ce1364c4155de0c0c30a60a91af861500451a3f9e8b7bc74dd8fb22a40493826",
+      "bytes": 21753,
+      "source_name": "kv279_3-accel-ftype_lin-min_tempo_60-max_tempo_168.mid",
+      "source_sha256": "ce1364c4155de0c0c30a60a91af861500451a3f9e8b7bc74dd8fb22a40493826"
+    },
+    "files/ce38c7c893d21f12.match": {
+      "sha256": "ce38c7c893d21f12b05b258b1f85a9f3113a0ced4fa5ea4850adec866cfa6c3f",
+      "bytes": 294769,
+      "source_name": "kv279_3-rall-ftype_lin-min_tempo_60-max_tempo_168.match",
+      "source_sha256": "ce38c7c893d21f12b05b258b1f85a9f3113a0ced4fa5ea4850adec866cfa6c3f"
+    },
+    "files/d01ec3f06372b01f.musicxml": {
+      "sha256": "d01ec3f06372b01fac1e58ffbd82d0dc851e5e32b8713e8d17c98e4fb59cc9ae",
+      "bytes": 1110827,
+      "source_name": "kv330_3.musicxml",
+      "source_sha256": "d01ec3f06372b01fac1e58ffbd82d0dc851e5e32b8713e8d17c98e4fb59cc9ae"
+    },
+    "files/d198d129dc5370e8.mid": {
+      "sha256": "d198d129dc5370e8ddf4544841bee1f9b8448f68f5cabf1b0728d01f6380143c",
+      "bytes": 20886,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.01.mid",
+      "source_sha256": "d198d129dc5370e8ddf4544841bee1f9b8448f68f5cabf1b0728d01f6380143c"
+    },
+    "files/d407c9d4a44de77c.mid": {
+      "sha256": "d407c9d4a44de77c9cd9e29a4cca4d93ca5659ee73d33ce1b44e09cd02f18185",
+      "bytes": 21075,
+      "source_name": "kv279_3-step-freq0.0625-min_tempo_120-max_tempo_145.mid",
+      "source_sha256": "d407c9d4a44de77c9cd9e29a4cca4d93ca5659ee73d33ce1b44e09cd02f18185"
+    },
+    "files/d863d634ba27376f.tsv": {
+      "sha256": "d863d634ba27376f2ad8856917b9f871d5f263967e85101746bc40bbdbb4fcb6",
+      "bytes": 36004,
+      "source_name": "kv279-repetition-gt.tsv",
+      "annotation_note": "Duplicate performance note IDs resolved by occurrence order; every repeated visit retained.",
+      "supersedes": "files/fb5127b6c081cea8.tsv"
+    },
+    "files/bc16dec883f47678.mp3": {
+      "sha256": "bc16dec883f47678f93d23c6e0b28320f9f491c8cf7a83ef27235ad07cea6307",
+      "bytes": 4671790,
+      "source_name": "k282_2.wav",
+      "source_sha256": "d959caca1e99588fd1f587b84b68ee7d6230518b809ed46cd81881d1e9b9d543"
+    },
+    "files/d9cf02492f840f2e.musicxml": {
+      "sha256": "d9cf02492f840f2ee1349d98047b9a9a4466b0f909ced7d33c8bac08954e6fc8",
+      "bytes": 489899,
+      "source_name": "kv282_1.musicxml",
+      "source_sha256": "d9cf02492f840f2ee1349d98047b9a9a4466b0f909ced7d33c8bac08954e6fc8"
+    },
+    "files/02236eaf160d8a7c.mp3": {
+      "sha256": "02236eaf160d8a7c4990929a6beed866c7fec7954251e15f1f81aa17a7d237fe",
+      "bytes": 3437561,
+      "source_name": "kv279_3-rall-ftype_lin-min_tempo_120-max_tempo_145.wav",
+      "source_sha256": "da9297b5b735824a1d020a697f5eea74307e6a5efd82a50c46e92c781a8ce18d"
+    },
+    "files/dd7696397bb8206c.mid": {
+      "sha256": "dd7696397bb8206c271501f6b8292cc23e71b80cd0e9efc75cf6d869cb238bb9",
+      "bytes": 21655,
+      "source_name": "kv279_3-step-freq0.5000-min_tempo_110-max_tempo_150.mid",
+      "source_sha256": "dd7696397bb8206c271501f6b8292cc23e71b80cd0e9efc75cf6d869cb238bb9"
+    },
+    "files/c210a388a49d2638.mp3": {
+      "sha256": "c210a388a49d26380672916896cc1147d9981dc079bc4bbacc840a85d063c78d",
+      "bytes": 3766499,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.20.wav",
+      "source_sha256": "dd9527519410ebd2728f12d68b0a90a3aac3a25bd9374d2d74ad81424a85f39a"
+    },
+    "files/dea04caa28bb2ad1.mid": {
+      "sha256": "dea04caa28bb2ad191623f5fa238eba34d9e45200deee81389a252361abda3c0",
+      "bytes": 9925,
+      "source_name": "bwv858-two_jump-m9-10_m17-27-bpm_65.mid",
+      "source_sha256": "dea04caa28bb2ad191623f5fa238eba34d9e45200deee81389a252361abda3c0"
+    },
+    "files/15cc7423bfbb280d.mp3": {
+      "sha256": "15cc7423bfbb280d49bc167f79720e997134030b422e18c616930d4063f7c74c",
+      "bytes": 7753736,
+      "source_name": "k332_3.wav",
+      "source_sha256": "dfb999696769f43a771700d41b1fad67eedf96ade929ba974783b81a41c5ad1c"
+    },
+    "files/e0587010a13ffcb6.match": {
+      "sha256": "e0587010a13ffcb6b6798e4a4cf0765648008caed622153a0cc75cb19e480a33",
+      "bytes": 296149,
+      "source_name": "kv279_3-accel-ftype_lin-min_tempo_60-max_tempo_168.match",
+      "source_sha256": "e0587010a13ffcb6b6798e4a4cf0765648008caed622153a0cc75cb19e480a33"
+    },
+    "files/e08f5d027d843920.musicxml": {
+      "sha256": "e08f5d027d843920e55d8bee10540ba69f7bce47310d20c10f1dee92049d5025",
+      "bytes": 775062,
+      "source_name": "kv279_2.musicxml",
+      "source_sha256": "e08f5d027d843920e55d8bee10540ba69f7bce47310d20c10f1dee92049d5025"
+    },
+    "files/e20fda49df3be7b1.tsv": {
+      "sha256": "e20fda49df3be7b14a35c14fe9f11b94f5548ab44060de120b137485582dc3fc",
+      "bytes": 41324,
+      "source_name": "kv284_1-folded-gt.tsv",
+      "source_sha256": "e20fda49df3be7b14a35c14fe9f11b94f5548ab44060de120b137485582dc3fc"
+    },
+    "files/e631fe626d956c1c.match": {
+      "sha256": "e631fe626d956c1c87dde65bd52f3008e9c0c4311b374ef6e81a336c955470b6",
+      "bytes": 295044,
+      "source_name": "kv279_3-step-freq0.0625-min_tempo_110-max_tempo_150.match",
+      "source_sha256": "e631fe626d956c1c87dde65bd52f3008e9c0c4311b374ef6e81a336c955470b6"
+    },
+    "files/da9ea5ec5cf08126.mp3": {
+      "sha256": "da9ea5ec5cf08126714154105cf977d17f70d814d1227e915a4156069f1931d0",
+      "bytes": 6705550,
+      "source_name": "k330_1.wav",
+      "source_sha256": "e6cab7a2aedc109109beb747cf0feb2bf4c7e7759c9101ced7eaeaf1bdc4b66c"
+    },
+    "files/f55fac5fb11a06a9.mp3": {
+      "sha256": "f55fac5fb11a06a90d3123074943e01e85db16a5675a762f81d4c25d14b3b0ab",
+      "bytes": 3777029,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.05-deletion_ratio_0.00.wav",
+      "source_sha256": "e7cb7168b078a779b653a569714b327068f3ec23e905da6f58c2fff126f251bc"
+    },
+    "files/e864d03f74bbded4.match": {
+      "sha256": "e864d03f74bbded460da93934cc3d5d53c60d311f44b4e9a8a1e5754c29571ed",
+      "bytes": 295139,
+      "source_name": "kv279_3-accel-ftype_lin-min_tempo_120-max_tempo_145.match",
+      "source_sha256": "e864d03f74bbded460da93934cc3d5d53c60d311f44b4e9a8a1e5754c29571ed"
+    },
+    "files/e9d931bd52401375.match": {
+      "sha256": "e9d931bd52401375f06471ceffed7c568805e834620265b2671969fdf720c18a",
+      "bytes": 295059,
+      "source_name": "kv279_3-step-freq0.5000-min_tempo_110-max_tempo_150.match",
+      "source_sha256": "e9d931bd52401375f06471ceffed7c568805e834620265b2671969fdf720c18a"
+    },
+    "files/e9eeb32abf8bbe61.mid": {
+      "sha256": "e9eeb32abf8bbe6121bc32db392fa1f84ac15b05dbc6378ee8d19be4ee2da9e4",
+      "bytes": 21948,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.05-deletion_ratio_0.00.mid",
+      "source_sha256": "e9eeb32abf8bbe6121bc32db392fa1f84ac15b05dbc6378ee8d19be4ee2da9e4"
+    },
+    "files/ea3ed3cea4e2584a.musicxml": {
+      "sha256": "ea3ed3cea4e2584ac070ae94452a5bf006f036b3bbe825100e8b8cd647643630",
+      "bytes": 1177896,
+      "source_name": "kv330_1.musicxml",
+      "source_sha256": "ea3ed3cea4e2584ac070ae94452a5bf006f036b3bbe825100e8b8cd647643630"
+    },
+    "files/ebb6571c14a8457c.tsv": {
+      "sha256": "ebb6571c14a8457c0fcf599cb08ea9490cb35775a155ab66731a8e6b17e6a978",
+      "bytes": 15870,
+      "source_name": "gt.tsv",
+      "source_sha256": "ebb6571c14a8457c0fcf599cb08ea9490cb35775a155ab66731a8e6b17e6a978"
+    },
+    "files/ed1d232ef0406085.musicxml": {
+      "sha256": "ed1d232ef0406085a95eb6f165e929ddea52ab795b9870d07e2de0db790a2d7c",
+      "bytes": 1138006,
+      "source_name": "kv332_1.musicxml",
+      "source_sha256": "ed1d232ef0406085a95eb6f165e929ddea52ab795b9870d07e2de0db790a2d7c"
+    },
+    "files/ede4301ade16a221.mid": {
+      "sha256": "ede4301ade16a221434704c7b76184eb060c56c12a3d592bf6a9202f0ce22728",
+      "bytes": 20095,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.05.mid",
+      "source_sha256": "ede4301ade16a221434704c7b76184eb060c56c12a3d592bf6a9202f0ce22728"
+    },
+    "files/ef34950c9567da04.mid": {
+      "sha256": "ef34950c9567da04aed58bdf88070e05b2d90ee917e3582bf9635a8e33e30e4a",
+      "bytes": 21766,
+      "source_name": "kv279_3-step-freq0.5000-min_tempo_60-max_tempo_168.mid",
+      "source_sha256": "ef34950c9567da04aed58bdf88070e05b2d90ee917e3582bf9635a8e33e30e4a"
+    },
+    "files/ef9ec3951e03586b.tsv": {
+      "sha256": "ef9ec3951e03586b85f221a31249b52f752546916a0b852fae50e5a7bf7264e3",
+      "bytes": 23919,
+      "source_name": "kv283_2-folded-gt.tsv",
+      "source_sha256": "ef9ec3951e03586b85f221a31249b52f752546916a0b852fae50e5a7bf7264e3"
+    },
+    "files/efacace45033e17f.tsv": {
+      "sha256": "efacace45033e17fe289fecbd62f5e5b315914c17093f7a7eb356da8e0704abd",
+      "bytes": 21183,
+      "source_name": "bwv858-two_jump-m9-10_m17-27-bpm_65.tsv",
+      "source_sha256": "efacace45033e17fe289fecbd62f5e5b315914c17093f7a7eb356da8e0704abd"
+    },
+    "files/f032a26a604d133a.tsv": {
+      "sha256": "f032a26a604d133a4df1d7b2b593887f39bcb46d6cff09aefd15d25c88b1f2ff",
+      "bytes": 22504,
+      "source_name": "kv279_2-folded-gt.tsv",
+      "source_sha256": "f032a26a604d133a4df1d7b2b593887f39bcb46d6cff09aefd15d25c88b1f2ff"
+    },
+    "files/f170bf65e1ffda31.mid": {
+      "sha256": "f170bf65e1ffda3121e0ca392a1c30749a7a0620e630461ffa52274d8b39bebe",
+      "bytes": 21297,
+      "source_name": "kv279_3-sine-freq0.0625-min_tempo_110-max_tempo_150.mid",
+      "source_sha256": "f170bf65e1ffda3121e0ca392a1c30749a7a0620e630461ffa52274d8b39bebe"
+    },
+    "files/f1f2c293d9c27480.musicxml": {
+      "sha256": "f1f2c293d9c27480034ad363a4affe026218f8d1798678349bb629bfe827b384",
+      "bytes": 607876,
+      "source_name": "kv281_2.musicxml",
+      "source_sha256": "f1f2c293d9c27480034ad363a4affe026218f8d1798678349bb629bfe827b384"
+    },
+    "files/f33ac03ce0ed7c2e.match": {
+      "sha256": "f33ac03ce0ed7c2e4b8c9aaf07c8fcc39b2a3a72a5cb7685c77ef886ed10e7e9",
+      "bytes": 296163,
+      "source_name": "kv279_3-insdel-bpm_140-insertion_ratio_0.01-deletion_ratio_0.00.match",
+      "source_sha256": "f33ac03ce0ed7c2e4b8c9aaf07c8fcc39b2a3a72a5cb7685c77ef886ed10e7e9"
+    },
+    "files/f6dc849864c8301f.mid": {
+      "sha256": "f6dc849864c8301fd4292f554a57b6af5323d9a231ddaa3c62b2f0f0aeed233e",
+      "bytes": 22842,
+      "source_name": "kv279_3-insdel-bpm_120-insertion_ratio_0.10-deletion_ratio_0.00.mid",
+      "source_sha256": "f6dc849864c8301fd4292f554a57b6af5323d9a231ddaa3c62b2f0f0aeed233e"
+    },
+    "files/97452c52116a93e7.mp3": {
+      "sha256": "97452c52116a93e73c80acd80ea0d23e68130ea86d5a7e71955cc4ecc6ab2b26",
+      "bytes": 3783336,
+      "source_name": "kv279_3-plus_50.wav",
+      "source_sha256": "f8e210c77e6be2db63b7706a58848ea4ae5fb31a42d0762d4d5a5d3b1bb27428"
+    },
+    "files/7468129ae1ec427a.mp3": {
+      "sha256": "7468129ae1ec427addef8183856207d0063d80feb969b1656ee5f0b3827130ad",
+      "bytes": 4308990,
+      "source_name": "kv279_3-rall-ftype_lin-min_tempo_60-max_tempo_168.wav",
+      "source_sha256": "fc5540c7e7e1a7060ca3bd28c10139fc437e1849003f7c8c0747e3a51f47265f"
+    },
+    "files/893cc16bed871f03.mp3": {
+      "sha256": "893cc16bed871f03ad0234b250f71a59448b72da0323eebe960411d1888b7cf8",
+      "bytes": 7151998,
+      "source_name": "k330_2.wav",
+      "source_sha256": "fc9252dfde0030fea3c1b3333c1d1650d6db5fbeef251ebdeb6f86359ee52bd4"
+    },
+    "files/fd53fd2910e0cddc.tsv": {
+      "sha256": "fd53fd2910e0cddc7be8e0fa4c76abd3d500b4c3b00d2f9aae2bf81dc363c8ec",
+      "bytes": 21065,
+      "source_name": "kv281_2-folded-gt.tsv",
+      "source_sha256": "fd53fd2910e0cddc7be8e0fa4c76abd3d500b4c3b00d2f9aae2bf81dc363c8ec"
+    },
+    "files/ffbf31794971c566.musicxml": {
+      "sha256": "ffbf31794971c566ae4298e8e97fc3e1125e47659a51509f46c3936e3a91d3fe",
+      "bytes": 414115,
+      "source_name": "kv280_2.musicxml",
+      "source_sha256": "ffbf31794971c566ae4298e8e97fc3e1125e47659a51509f46c3936e3a91d3fe"
+    },
+    "files/ffc4003eca875f5a.mid": {
+      "sha256": "ffc4003eca875f5adc334bb1598060994e367a6a587acb080ef6e76caef7dc8e",
+      "bytes": 21640,
+      "source_name": "kv279_3-step-freq0.0625-min_tempo_110-max_tempo_150.mid",
+      "source_sha256": "ffc4003eca875f5adc334bb1598060994e367a6a587acb080ef6e76caef7dc8e"
+    }
+  },
+  "cases": [
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.01",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/d198d129dc5370e8.mid",
+        "audio_performance": "files/b4485194306755eb.mp3",
+        "match": "files/c352dd7ffdb0c142.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.05",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/1e756b31ec5b461c.mid",
+        "audio_performance": "files/38db3076089eaaac.mp3",
+        "match": "files/7d04a0ec91ae2984.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.10",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/499b246d1a426044.mid",
+        "audio_performance": "files/8805851550f1818c.mp3",
+        "match": "files/81dfa483427f082e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.20",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/5783a075838ec9df.mid",
+        "audio_performance": "files/c210a388a49d2638.mp3",
+        "match": "files/ac119c13dafa2bc3.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.01",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/3ac6db943f0d226f.mid",
+        "audio_performance": "files/7cd9198358e5914f.mp3",
+        "match": "files/b6cbf93924617a6a.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.05",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/ede4301ade16a221.mid",
+        "audio_performance": "files/9860fcfb12b924b9.mp3",
+        "match": "files/c387cff4089395d3.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.10",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/c50fc2d6d0966983.mid",
+        "audio_performance": "files/0dcb72bdd8c4d990.mp3",
+        "match": "files/6ca234b5d8001ba3.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.20",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/52a6bd3e6ad7bb04.mid",
+        "audio_performance": "files/e5d0114495031f44.mp3",
+        "match": "files/7106ab0ad06e6029.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_120-insertion_ratio_0.01-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/74aec1f918f8344a.mid",
+        "audio_performance": "files/1be1bbdf72072001.mp3",
+        "match": "files/809775542e1982da.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_120-insertion_ratio_0.05-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/e9eeb32abf8bbe61.mid",
+        "audio_performance": "files/f55fac5fb11a06a9.mp3",
+        "match": "files/519afe927bd0adeb.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_120-insertion_ratio_0.10-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/f6dc849864c8301f.mid",
+        "audio_performance": "files/d328955639dc5032.mp3",
+        "match": "files/02c8eb8adf5ace6b.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_120-insertion_ratio_0.20-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/6e1d9c430bffac9a.mid",
+        "audio_performance": "files/26a66b2c0d8285e2.mp3",
+        "match": "files/5e5d96d210fb8611.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_140-insertion_ratio_0.01-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/33911fcc8d49dfe3.mid",
+        "audio_performance": "files/065c7bebebd0137c.mp3",
+        "match": "files/f33ac03ce0ed7c2e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_140-insertion_ratio_0.05-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/5953aa0cc182b450.mid",
+        "audio_performance": "files/609e890cd4206317.mp3",
+        "match": "files/3866368365f886c0.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_140-insertion_ratio_0.10-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/b9f19ad0046b0205.mid",
+        "audio_performance": "files/64f5e7e64fc8a658.mp3",
+        "match": "files/3090342fff2778dd.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_140-insertion_ratio_0.20-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/0bbbdf047b5b6805.mid",
+        "audio_performance": "files/de49e49f1c0795dd.mp3",
+        "match": "files/721c1f37b9053f9d.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Detune/kv279_3-minus_10",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Detune",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "audio_performance": "files/d7c7bd018680b552.mp3",
+        "match": "files/5a5cb39da85afa3e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Detune/kv279_3-minus_25",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Detune",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "audio_performance": "files/b790d00807d599a3.mp3",
+        "match": "files/5a5cb39da85afa3e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Detune/kv279_3-minus_50",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Detune",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "audio_performance": "files/75add16af83cbbc6.mp3",
+        "match": "files/5a5cb39da85afa3e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Detune/kv279_3-plus_10",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Detune",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "audio_performance": "files/f470daaa9864704a.mp3",
+        "match": "files/5a5cb39da85afa3e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Detune/kv279_3-plus_25",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Detune",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "audio_performance": "files/67081c85b2c67790.mp3",
+        "match": "files/5a5cb39da85afa3e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Detune/kv279_3-plus_50",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Detune",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "audio_performance": "files/97452c52116a93e7.mp3",
+        "match": "files/5a5cb39da85afa3e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Detune/kv279_3-unchanged",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Detune",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/6aba92f3adf27bbb.mid",
+        "audio_performance": "files/e8dc8e8e603e6494.mp3",
+        "match": "files/5a5cb39da85afa3e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.0625-min_tempo_110-max_tempo_150",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/f170bf65e1ffda31.mid",
+        "audio_performance": "files/a4f3fd0d74521b3c.mp3",
+        "match": "files/3b7d27c06f957c5e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.0625-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/241f533ad622c189.mid",
+        "audio_performance": "files/ae95feb9e4126544.mp3",
+        "match": "files/cd66eb7d2556d95c.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.0625-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/8dec95179c78df0a.mid",
+        "audio_performance": "files/4c88cb77b547bc0c.mp3",
+        "match": "files/0b0b111fae71a7cf.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.5000-min_tempo_110-max_tempo_150",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/14da0e4cb322c83c.mid",
+        "audio_performance": "files/740390f2f303b18d.mp3",
+        "match": "files/77f812273bb00f18.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.5000-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/bd01ec0df96a48d3.mid",
+        "audio_performance": "files/172e425396e710d9.mp3",
+        "match": "files/cbaa60621cef51dc.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.5000-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/1c72cb037a85028f.mid",
+        "audio_performance": "files/599b95b625009639.mp3",
+        "match": "files/29ea35368d82f6d5.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.0625-min_tempo_110-max_tempo_150",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/ffc4003eca875f5a.mid",
+        "audio_performance": "files/462e6fd475207689.mp3",
+        "match": "files/e631fe626d956c1c.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.0625-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/d407c9d4a44de77c.mid",
+        "audio_performance": "files/e0d4b6bfb8ca8ac4.mp3",
+        "match": "files/7b3f80bf66359469.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.0625-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/54e789a2696d53c9.mid",
+        "audio_performance": "files/8fceac8ddb73d147.mp3",
+        "match": "files/8c477240a7c4007d.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.5000-min_tempo_110-max_tempo_150",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/dd7696397bb8206c.mid",
+        "audio_performance": "files/43cad43df6668a19.mp3",
+        "match": "files/e9d931bd52401375.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.5000-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/1a34cfde211050ef.mid",
+        "audio_performance": "files/e9bfbfd688c68f17.mp3",
+        "match": "files/927de54ce4a257da.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.5000-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/ef34950c9567da04.mid",
+        "audio_performance": "files/10d4f87213bafd6d.mp3",
+        "match": "files/b28dce9abbc91c73.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Ramp/kv279_3-accel-ftype_lin-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Ramp",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/0acb245079a16f01.mid",
+        "audio_performance": "files/963450fbf9b9dfdb.mp3",
+        "match": "files/e864d03f74bbded4.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Ramp/kv279_3-accel-ftype_lin-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Ramp",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/ce1364c4155de0c0.mid",
+        "audio_performance": "files/3b7bb6f8cb95238c.mp3",
+        "match": "files/e0587010a13ffcb6.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Ramp/kv279_3-rall-ftype_lin-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Ramp",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/0e41629cab01458b.mid",
+        "audio_performance": "files/02236eaf160d8a7c.mp3",
+        "match": "files/728909514922a8c0.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Ramp/kv279_3-rall-ftype_lin-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Ramp",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/372177424d256eb6.mid",
+        "audio_performance": "files/7468129ae1ec427a.mp3",
+        "match": "files/ce38c7c893d21f12.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Fumbles/kv279_3-fumbles",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Fumbles",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/513dfc295934c2c6.mid",
+        "audio_performance": "files/3d8a0c7d4b5aa340.mp3",
+        "match": "files/4af317a258e96700.tsv"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Section_Repetition/bwv858-two_jump-m9-10_m17-27-bpm_65",
+      "suite": "perturbations",
+      "input_type": "audio",
+      "category": "Section_Repetition",
+      "paths": {
+        "xml_score": "files/880a6700d39b8ae1.musicxml",
+        "midi_performance": "files/dea04caa28bb2ad1.mid",
+        "audio_performance": "files/2b5076610ceae641.mp3",
+        "match": "files/efacace45033e17f.tsv"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.01",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/d198d129dc5370e8.mid",
+        "match": "files/c352dd7ffdb0c142.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.05",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/1e756b31ec5b461c.mid",
+        "match": "files/7d04a0ec91ae2984.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.10",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/499b246d1a426044.mid",
+        "match": "files/81dfa483427f082e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_120-insertion_ratio_0.00-deletion_ratio_0.20",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/5783a075838ec9df.mid",
+        "match": "files/ac119c13dafa2bc3.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.01",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/3ac6db943f0d226f.mid",
+        "match": "files/b6cbf93924617a6a.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.05",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/ede4301ade16a221.mid",
+        "match": "files/c387cff4089395d3.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.10",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/c50fc2d6d0966983.mid",
+        "match": "files/6ca234b5d8001ba3.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Deletions/kv279_3-insdel-bpm_140-insertion_ratio_0.00-deletion_ratio_0.20",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Deletions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/52a6bd3e6ad7bb04.mid",
+        "match": "files/7106ab0ad06e6029.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_120-insertion_ratio_0.01-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/74aec1f918f8344a.mid",
+        "match": "files/809775542e1982da.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_120-insertion_ratio_0.05-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/e9eeb32abf8bbe61.mid",
+        "match": "files/519afe927bd0adeb.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_120-insertion_ratio_0.10-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/f6dc849864c8301f.mid",
+        "match": "files/02c8eb8adf5ace6b.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_120-insertion_ratio_0.20-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/6e1d9c430bffac9a.mid",
+        "match": "files/5e5d96d210fb8611.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_140-insertion_ratio_0.01-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/33911fcc8d49dfe3.mid",
+        "match": "files/f33ac03ce0ed7c2e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_140-insertion_ratio_0.05-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/5953aa0cc182b450.mid",
+        "match": "files/3866368365f886c0.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_140-insertion_ratio_0.10-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/b9f19ad0046b0205.mid",
+        "match": "files/3090342fff2778dd.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Insertions/kv279_3-insdel-bpm_140-insertion_ratio_0.20-deletion_ratio_0.00",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Insertions",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/0bbbdf047b5b6805.mid",
+        "match": "files/721c1f37b9053f9d.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.0625-min_tempo_110-max_tempo_150",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/f170bf65e1ffda31.mid",
+        "match": "files/3b7d27c06f957c5e.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.0625-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/241f533ad622c189.mid",
+        "match": "files/cd66eb7d2556d95c.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.0625-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/8dec95179c78df0a.mid",
+        "match": "files/0b0b111fae71a7cf.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.5000-min_tempo_110-max_tempo_150",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/14da0e4cb322c83c.mid",
+        "match": "files/77f812273bb00f18.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.5000-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/bd01ec0df96a48d3.mid",
+        "match": "files/cbaa60621cef51dc.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-sine-freq0.5000-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/1c72cb037a85028f.mid",
+        "match": "files/29ea35368d82f6d5.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.0625-min_tempo_110-max_tempo_150",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/ffc4003eca875f5a.mid",
+        "match": "files/e631fe626d956c1c.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.0625-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/d407c9d4a44de77c.mid",
+        "match": "files/7b3f80bf66359469.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.0625-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/54e789a2696d53c9.mid",
+        "match": "files/8c477240a7c4007d.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.5000-min_tempo_110-max_tempo_150",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/dd7696397bb8206c.mid",
+        "match": "files/e9d931bd52401375.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.5000-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/1a34cfde211050ef.mid",
+        "match": "files/927de54ce4a257da.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Oscillations/kv279_3-step-freq0.5000-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Oscillations",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/ef34950c9567da04.mid",
+        "match": "files/b28dce9abbc91c73.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Ramp/kv279_3-accel-ftype_lin-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Ramp",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/0acb245079a16f01.mid",
+        "match": "files/e864d03f74bbded4.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Ramp/kv279_3-accel-ftype_lin-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Ramp",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/ce1364c4155de0c0.mid",
+        "match": "files/e0587010a13ffcb6.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Ramp/kv279_3-rall-ftype_lin-min_tempo_120-max_tempo_145",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Ramp",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/0e41629cab01458b.mid",
+        "match": "files/728909514922a8c0.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Ramp/kv279_3-rall-ftype_lin-min_tempo_60-max_tempo_168",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Ramp",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/372177424d256eb6.mid",
+        "match": "files/ce38c7c893d21f12.match"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Fumbles/kv279_3-fumbles",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Fumbles",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/513dfc295934c2c6.mid",
+        "match": "files/4af317a258e96700.tsv"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "synthetic/Section_Repetition/bwv858-two_jump-m9-10_m17-27-bpm_65",
+      "suite": "perturbations",
+      "input_type": "midi",
+      "category": "Section_Repetition",
+      "paths": {
+        "xml_score": "files/880a6700d39b8ae1.musicxml",
+        "midi_performance": "files/dea04caa28bb2ad1.mid",
+        "audio_performance": "files/2b5076610ceae641.mp3",
+        "match": "files/efacace45033e17f.tsv"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "k282/local",
+      "suite": "repeat_examples",
+      "input_type": "audio",
+      "category": "local",
+      "paths": {
+        "xml_score": "files/d9cf02492f840f2e.musicxml",
+        "audio_performance": "files/240599fe0a9d7aaa.mp3",
+        "midi_performance": "files/b3aa45a1296b8fc4.mid",
+        "match": "files/ebb6571c14a8457c.tsv"
+      },
+      "unfold_score": false,
+      "tempo": 60.0,
+      "repeat_metadata": {
+        "condition": "local",
+        "bpm": 60.0,
+        "measures_repeated": [
+          5,
+          6
+        ],
+        "repeat_beats": [
+          16.0,
+          24.0
+        ],
+        "segments": [
+          [
+            0.0,
+            24.0
+          ],
+          [
+            16.0,
+            24.0
+          ],
+          [
+            24.0,
+            72.0
+          ]
+        ],
+        "duration_sec": 80.0,
+        "first_visit_sec": 16.0,
+        "replay_start_sec": 24.0,
+        "replay_end_sec": 32.0,
+        "repeat_sign_used": false,
+        "synthesis": "constant tempo, velocity 64, no pedal, note-offs at segment boundaries"
+      }
+    },
+    {
+      "id": "k282/notated",
+      "suite": "repeat_examples",
+      "input_type": "audio",
+      "category": "notated",
+      "paths": {
+        "xml_score": "files/d9cf02492f840f2e.musicxml",
+        "audio_performance": "files/34cad72ca5b1fb74.mp3",
+        "midi_performance": "files/22476650fb515195.mid",
+        "match": "files/636f01af6b381505.tsv"
+      },
+      "unfold_score": false,
+      "tempo": 60.0,
+      "repeat_metadata": {
+        "condition": "notated",
+        "bpm": 60.0,
+        "measures_repeated": [
+          1,
+          15
+        ],
+        "repeat_beats": [
+          0.0,
+          60.0
+        ],
+        "segments": [
+          [
+            0.0,
+            60.0
+          ],
+          [
+            0.0,
+            60.0
+          ],
+          [
+            60.0,
+            72.0
+          ]
+        ],
+        "duration_sec": 132.0,
+        "first_visit_sec": 0.0,
+        "replay_start_sec": 60.0,
+        "replay_end_sec": 120.0,
+        "repeat_sign_used": true,
+        "synthesis": "constant tempo, velocity 64, no pedal, note-offs at segment boundaries"
+      }
+    },
+    {
+      "id": "batik/kv279_2",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/e08f5d027d843920.musicxml",
+        "audio_performance": "files/54cd1cd718f49c74.mp3",
+        "match": "files/f032a26a604d133a.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 2
+    },
+    {
+      "id": "batik/kv280_2",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/ffbf31794971c566.musicxml",
+        "audio_performance": "files/cfaa590c25b154a4.mp3",
+        "match": "files/101dbff83dbf4cc2.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 5
+    },
+    {
+      "id": "batik/kv280_3",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/40853c0cb7158baa.musicxml",
+        "audio_performance": "files/5f2bf7d217b86282.mp3",
+        "match": "files/b2c71afba63bdce1.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 6
+    },
+    {
+      "id": "batik/kv281_1",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/b8e7329b6001627b.musicxml",
+        "audio_performance": "files/34210e8bbb1d46b3.mp3",
+        "match": "files/6441a6c4e91b8156.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 7
+    },
+    {
+      "id": "batik/kv281_2",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/f1f2c293d9c27480.musicxml",
+        "audio_performance": "files/6c484fce937c146c.mp3",
+        "match": "files/fd53fd2910e0cddc.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 8
+    },
+    {
+      "id": "batik/kv281_3",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/637fa5222f0f61e3.musicxml",
+        "audio_performance": "files/a2a498107c975e64.mp3",
+        "match": "files/2c7d6da53442beed.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 9
+    },
+    {
+      "id": "batik/kv282_1",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/d9cf02492f840f2e.musicxml",
+        "audio_performance": "files/33a7c6724e360822.mp3",
+        "match": "files/45b521d47c8dbdf7.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 10
+    },
+    {
+      "id": "batik/kv282_2",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/9e8c2eb7ede0a6eb.musicxml",
+        "audio_performance": "files/bc16dec883f47678.mp3",
+        "match": "files/6a7751f0b73c1635.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 11
+    },
+    {
+      "id": "batik/kv283_2",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/21524977b4f7f241.musicxml",
+        "audio_performance": "files/ea2560f9b6f0e999.mp3",
+        "match": "files/ef9ec3951e03586b.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 14
+    },
+    {
+      "id": "batik/kv284_1",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/240b9b83649b6c72.musicxml",
+        "audio_performance": "files/a1537dc9f55a4f62.mp3",
+        "match": "files/e20fda49df3be7b1.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 16
+    },
+    {
+      "id": "batik/kv284_3",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/0feec5720e34561e.musicxml",
+        "audio_performance": "files/41f850360f0a2e24.mp3",
+        "match": "files/49503f52a7b1dca8.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 18
+    },
+    {
+      "id": "batik/kv330_1",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/ea3ed3cea4e2584a.musicxml",
+        "audio_performance": "files/da9ea5ec5cf08126.mp3",
+        "match": "files/b506bd86eeaae220.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 19
+    },
+    {
+      "id": "batik/kv330_2",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/b6dc8322e2027907.musicxml",
+        "audio_performance": "files/893cc16bed871f03.mp3",
+        "match": "files/0428e081b583d449.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 20
+    },
+    {
+      "id": "batik/kv330_3",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/d01ec3f06372b01f.musicxml",
+        "audio_performance": "files/2884a428327c7b2c.mp3",
+        "match": "files/8221d356d3f0e71d.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 21
+    },
+    {
+      "id": "batik/kv331_1",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/595405aed70528ca.musicxml",
+        "audio_performance": "files/f764470371b7acfc.mp3",
+        "match": "files/055df401b8276a96.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 22
+    },
+    {
+      "id": "batik/kv331_2",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/b3b9dd5fc0259853.musicxml",
+        "audio_performance": "files/2528a86f5bd31679.mp3",
+        "match": "files/a314ada48b91cd61.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 23
+    },
+    {
+      "id": "batik/kv331_3",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/182184851cd8301a.musicxml",
+        "audio_performance": "files/affd351617ac8040.mp3",
+        "match": "files/047e677b7e7ce1c5.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 24
+    },
+    {
+      "id": "batik/kv332_1",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/ed1d232ef0406085.musicxml",
+        "audio_performance": "files/9f9ff4f6935643fa.mp3",
+        "match": "files/334475e693e712b8.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 25
+    },
+    {
+      "id": "batik/kv332_3",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/416a4d4d87e067f7.musicxml",
+        "audio_performance": "files/15cc7423bfbb280d.mp3",
+        "match": "files/712ea645644997c4.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 27
+    },
+    {
+      "id": "batik/kv333_1",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/75fb119f911b32a2.musicxml",
+        "audio_performance": "files/bd29aaa4690e08f2.mp3",
+        "match": "files/922509cc80f4326a.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 28
+    },
+    {
+      "id": "batik/kv333_2",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/8c7719eff8a4056a.musicxml",
+        "audio_performance": "files/9123d35b6bd01e2b.mp3",
+        "match": "files/89345670626dd747.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 29
+    },
+    {
+      "id": "batik/kv457_1",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/96989d2395cf6557.musicxml",
+        "audio_performance": "files/94617ff5f5d54b9c.mp3",
+        "match": "files/178550c11cccb19a.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 31
+    },
+    {
+      "id": "batik/kv533_1",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/90923763ec5bdb86.musicxml",
+        "audio_performance": "files/35609c86d1aefe28.mp3",
+        "match": "files/bd08466ca21741a6.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 34
+    },
+    {
+      "id": "batik/kv533_3",
+      "suite": "folded_batik",
+      "input_type": "audio",
+      "category": "folded",
+      "paths": {
+        "xml_score": "files/26f8f18aab931fa5.musicxml",
+        "audio_performance": "files/7821e0c369f33145.mp3",
+        "match": "files/3ca895b92d4e5838.tsv"
+      },
+      "unfold_score": false,
+      "tempo": null,
+      "split": "test",
+      "original_index": 36
+    },
+    {
+      "id": "synthetic/Fumbles/kv279_3-fumbles",
+      "suite": "global_skip",
+      "input_type": "midi",
+      "category": "Fumbles",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/513dfc295934c2c6.mid",
+        "match": "files/4af317a258e96700.tsv"
+      },
+      "unfold_score": true,
+      "tempo": null
+    },
+    {
+      "id": "kv279/section_repetition",
+      "suite": "global_skip",
+      "input_type": "midi",
+      "category": "Section_Repetition",
+      "paths": {
+        "xml_score": "files/c6f81bb894c92d32.musicxml",
+        "midi_performance": "files/5d7fd009874eb1c9.mid",
+        "match": "files/d863d634ba27376f.tsv"
+      },
+      "unfold_score": true,
+      "tempo": null
+    }
+  ]
+}

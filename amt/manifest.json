@@ -1,0 +1,1032 @@
+{
+  "schema": 1,
+  "source": "Online AMT output of Kwon et al. (2024)",
+  "front_end": "Not included and not run by the benchmark",
+  "timestamp_policy": "Stored MIDI timestamps are preserved; no latency correction or re-timing.",
+  "benchmark_fold": "eval",
+  "benchmark_data_commit": "03b51262b9bce7993203044fa45c9be9dadebd34",
+  "cases": [
+    {
+      "piece_id": "asap/Fugue_bwv_858/Zhang01M",
+      "dataset": "asap",
+      "path": "files/ce84e6853e759080.mid",
+      "sha256": "ce84e6853e759080545b0a9029297cb7e9db32efb3cc7e9439bc444415e1ca5c",
+      "bytes": 6694
+    },
+    {
+      "piece_id": "asap/Fugue_bwv_862/Song04M",
+      "dataset": "asap",
+      "path": "files/ff6fd134643de4af.mid",
+      "sha256": "ff6fd134643de4afa6a64488ea0a44a0ec398485263862e4d7f04ff0ef839853",
+      "bytes": 6548
+    },
+    {
+      "piece_id": "asap/Fugue_bwv_863/LeeN01M",
+      "dataset": "asap",
+      "path": "files/34c49479cf780d3d.mid",
+      "sha256": "34c49479cf780d3d7e4149d578d58fcf5ac3891ae6f36d2af2a76d26c27eeec7",
+      "bytes": 5906
+    },
+    {
+      "piece_id": "asap/Fugue_bwv_863/TongB01M",
+      "dataset": "asap",
+      "path": "files/a1892a3b4b2e30a8.mid",
+      "sha256": "a1892a3b4b2e30a83e2cdcfb906fa69ed81a476df14d5eff16e94cd7ad40e47d",
+      "bytes": 6069
+    },
+    {
+      "piece_id": "asap/Fugue_bwv_873/Lisiecki13M",
+      "dataset": "asap",
+      "path": "files/d7838c73964d4692.mid",
+      "sha256": "d7838c73964d4692f8a4e5f679d2cff561005eff7c1151b316fa6200cc01547b",
+      "bytes": 9769
+    },
+    {
+      "piece_id": "asap/Fugue_bwv_891/Duepree06M",
+      "dataset": "asap",
+      "path": "files/b1d8aa971fd0ff92.mid",
+      "sha256": "b1d8aa971fd0ff927904758c7f3f3b5fcdb9555695f917ccf7876fa85a95faaf",
+      "bytes": 12736
+    },
+    {
+      "piece_id": "asap/Prelude_bwv_858/VuV01M",
+      "dataset": "asap",
+      "path": "files/8f68a0d58850eff4.mid",
+      "sha256": "8f68a0d58850eff4d50214fb008b47f7034de63d202c78ae63b6c55720bf9f90",
+      "bytes": 3576
+    },
+    {
+      "piece_id": "asap/Prelude_bwv_858/Zhang01M",
+      "dataset": "asap",
+      "path": "files/8655ed5d2521392c.mid",
+      "sha256": "8655ed5d2521392cad57e44cae7cb0ca2d2fe73789bc9055bdab83a317a24edf",
+      "bytes": 3833
+    },
+    {
+      "piece_id": "asap/Prelude_bwv_863/Shychko01M",
+      "dataset": "asap",
+      "path": "files/5a36030fa7ac86c0.mid",
+      "sha256": "5a36030fa7ac86c00a3e6c12e90873985d762c8e96557b453c271b9a8cf8b86e",
+      "bytes": 4340
+    },
+    {
+      "piece_id": "asap/Prelude_bwv_863/TongB01M",
+      "dataset": "asap",
+      "path": "files/62af842bad2d1687.mid",
+      "sha256": "62af842bad2d16874e023c206bf61fcf8a05926ddb08d145cba140ca0fc1b714",
+      "bytes": 4331
+    },
+    {
+      "piece_id": "asap/Prelude_bwv_891/BLINOV04M",
+      "dataset": "asap",
+      "path": "files/b66316c5c185c44a.mid",
+      "sha256": "b66316c5c185c44a614501ed40c96dc6f02f675c634bc98ca1473c120319038a",
+      "bytes": 8825
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_12-1/Kleisen05M",
+      "dataset": "asap",
+      "path": "files/da05732a53af290d.mid",
+      "sha256": "da05732a53af290d66c201340ef195516133a625ed506ab437daed7d4608cf51",
+      "bytes": 22075
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_16-1/BuiJL02M",
+      "dataset": "asap",
+      "path": "files/83c728e50ccf67d8.mid",
+      "sha256": "83c728e50ccf67d824768dba19ed08f36f6b1e2e3b0a370dedf6d03450c3ff0e",
+      "bytes": 22452
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_16-1/Khmara05M",
+      "dataset": "asap",
+      "path": "files/f1c9d9d8ac6ff44e.mid",
+      "sha256": "f1c9d9d8ac6ff44eee27f420749d15bde00431ad380b83b4181d77ebd706513f",
+      "bytes": 22608
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_16-1/LeeSH02M",
+      "dataset": "asap",
+      "path": "files/dcc1d12f03b87204.mid",
+      "sha256": "dcc1d12f03b87204278c9ed4f0c20b60e83dfe41438a808592ec84e19ddb9f17",
+      "bytes": 23324
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_16-1/Woo05M",
+      "dataset": "asap",
+      "path": "files/09f3414670f61500.mid",
+      "sha256": "09f3414670f615006b2c31e141ff39c40679e25254abcd3f6072e9adccf2afcd",
+      "bytes": 22037
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_18-4/ChenGuang06M",
+      "dataset": "asap",
+      "path": "files/303b16261fd46b5d.mid",
+      "sha256": "303b16261fd46b5d5c4b886af673bf34bc9819e609d39d68567cc7afb7e15961",
+      "bytes": 24225
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_18-4/KOLESO06M",
+      "dataset": "asap",
+      "path": "files/3852e4c5e81896d6.mid",
+      "sha256": "3852e4c5e81896d61fe919fa2c5e9b7b5008ab0a27baeb676820ae23475bb184",
+      "bytes": 24455
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_3-2/MiyashitaM04M",
+      "dataset": "asap",
+      "path": "files/1609382180ddc40c.mid",
+      "sha256": "1609382180ddc40cda40f02cb311b6ecdf4852f12e3eaeb6af2cf7cd5e1baf43",
+      "bytes": 10933
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_5-1/SunD02M",
+      "dataset": "asap",
+      "path": "files/e3c75206932f3fbd.mid",
+      "sha256": "e3c75206932f3fbd276537e4e782b60f2c99dab9a90a6b2db3b5d9aaeafcb746",
+      "bytes": 14891
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_8-3/Na06M",
+      "dataset": "asap",
+      "path": "files/9ebeab55f6a70385.mid",
+      "sha256": "9ebeab55f6a70385d82169d1485580551f180621caf3538869865c588ff0e892",
+      "bytes": 17223
+    },
+    {
+      "piece_id": "asap/Piano_Sonatas_9-3/Tysman05M",
+      "dataset": "asap",
+      "path": "files/c777c193de313454.mid",
+      "sha256": "c777c193de313454efc73767f939cf70370d37e7824ce0ae97f342968e205042",
+      "bytes": 12766
+    },
+    {
+      "piece_id": "asap/Etudes_op_10_12/Bult-ItoS04M",
+      "dataset": "asap",
+      "path": "files/8f7417e3121f1b4e.mid",
+      "sha256": "8f7417e3121f1b4e011030c2d271b99dda8349f6ce9b91a99bf93f480bb98d9c",
+      "bytes": 14329
+    },
+    {
+      "piece_id": "asap/Etudes_op_10_12/HuNY03M",
+      "dataset": "asap",
+      "path": "files/bbbae4d72b341967.mid",
+      "sha256": "bbbae4d72b34196777530adbd5125d3115ba753e85abaf8dbf636fd616c33c2a",
+      "bytes": 14347
+    },
+    {
+      "piece_id": "asap/Etudes_op_10_12/LuoJ08M",
+      "dataset": "asap",
+      "path": "files/26875fdd3e5d9066.mid",
+      "sha256": "26875fdd3e5d90663c5fead4d78359fa9b0c2b2ba5365eb7a448c3c4b518a319",
+      "bytes": 14092
+    },
+    {
+      "piece_id": "asap/Etudes_op_10_12/WuuE06M",
+      "dataset": "asap",
+      "path": "files/4b272814f141dc70.mid",
+      "sha256": "4b272814f141dc701a53d5efa9a908ecaf7e941b248817e71ffc86c3a8860900",
+      "bytes": 14137
+    },
+    {
+      "piece_id": "asap/Etudes_op_10_12/ZhangYunling02M",
+      "dataset": "asap",
+      "path": "files/439c970828662048.mid",
+      "sha256": "439c970828662048c635fe2363b9372eaa33d58bddb4b0f5260bf4399a2f0478",
+      "bytes": 14144
+    },
+    {
+      "piece_id": "asap/Transcendental_Etudes_10/Huang17M",
+      "dataset": "asap",
+      "path": "files/252d0e18303efd0f.mid",
+      "sha256": "252d0e18303efd0feae30b91cbbbcec2d1a01d5238226022b06a15fcae7f7646",
+      "bytes": 26556
+    },
+    {
+      "piece_id": "asap/Transcendental_Etudes_10/LeungM06M",
+      "dataset": "asap",
+      "path": "files/d5fa7c08e6040a55.mid",
+      "sha256": "d5fa7c08e6040a55afeddfd52613d72a2acdc853bfd97fddc23948e9db553763",
+      "bytes": 25798
+    },
+    {
+      "piece_id": "asap/Preludes_op_23_6/Nikiforov14M",
+      "dataset": "asap",
+      "path": "files/7905768a58b31e2f.mid",
+      "sha256": "7905768a58b31e2f127beeac4d9bfd7e68cb1ea4842152fd0982ac39f85dcc49",
+      "bytes": 8580
+    },
+    {
+      "piece_id": "asap/Toccata/DupreeF13M",
+      "dataset": "asap",
+      "path": "files/efa302a856adf704.mid",
+      "sha256": "efa302a856adf704580885abe67bb7a27b539b6d9ae387a877c83d61f88404d0",
+      "bytes": 38990
+    },
+    {
+      "piece_id": "asap/Toccata_repeat/WangY07M",
+      "dataset": "asap",
+      "path": "files/f6d1ee94922ae7ba.mid",
+      "sha256": "f6d1ee94922ae7ba6df09324d339f9a1f9a81671ef9f0783c803f0abe6012cee",
+      "bytes": 52117
+    },
+    {
+      "piece_id": "batik/kv279_2/kv279_2",
+      "dataset": "batik",
+      "path": "files/6130ba4b0af8abd4.mid",
+      "sha256": "6130ba4b0af8abd45a3468a153f2be8cbefa98daf6304a6092e4b537bb108b0c",
+      "bytes": 14272
+    },
+    {
+      "piece_id": "batik/kv280_2/kv280_2",
+      "dataset": "batik",
+      "path": "files/42c535a7f169e064.mid",
+      "sha256": "42c535a7f169e06407ef6a091ca1b4479acc0d5df1d38b145cfc6a1e631728bb",
+      "bytes": 9344
+    },
+    {
+      "piece_id": "batik/kv280_3/kv280_3",
+      "dataset": "batik",
+      "path": "files/a4e2dccf4f64841b.mid",
+      "sha256": "a4e2dccf4f64841bfb8476b0aac8bc1035b829f3237865493765fd438ddc5d5d",
+      "bytes": 18166
+    },
+    {
+      "piece_id": "batik/kv281_1/kv281_1",
+      "dataset": "batik",
+      "path": "files/8cddc426e19662de.mid",
+      "sha256": "8cddc426e19662de93d314941847c75f3976a24659bd1839ce55ecc715087135",
+      "bytes": 20045
+    },
+    {
+      "piece_id": "batik/kv281_2/kv281_2",
+      "dataset": "batik",
+      "path": "files/0dcf456afcf6a540.mid",
+      "sha256": "0dcf456afcf6a540795b9a10a52b0e02465cb55647ec86959a391fbb0489fe1c",
+      "bytes": 12530
+    },
+    {
+      "piece_id": "batik/kv281_3/kv281_3",
+      "dataset": "batik",
+      "path": "files/fbc7b86d98876eb6.mid",
+      "sha256": "fbc7b86d98876eb6a6d187bdd2171e0ba3b02f3432acf475122b28b502a4f349",
+      "bytes": 18093
+    },
+    {
+      "piece_id": "batik/kv282_1/kv282_1",
+      "dataset": "batik",
+      "path": "files/622dcd31d15e7796.mid",
+      "sha256": "622dcd31d15e77965d6e07025a9a5ab170f623fcbb7bfbdc675e5b22f9ca46b3",
+      "bytes": 15004
+    },
+    {
+      "piece_id": "batik/kv282_2/kv282_2",
+      "dataset": "batik",
+      "path": "files/0642b97aa00d69ac.mid",
+      "sha256": "0642b97aa00d69ac1d087d87d20ac07cedc2e3b0640510b5bdb901db5439bc69",
+      "bytes": 12947
+    },
+    {
+      "piece_id": "batik/kv283_2/kv283_2",
+      "dataset": "batik",
+      "path": "files/6d6aba5e64d87463.mid",
+      "sha256": "6d6aba5e64d8746312961b17f67d4f8a8c22f45d062cb1491528fab4e6ce7e3b",
+      "bytes": 16492
+    },
+    {
+      "piece_id": "batik/kv284_1/kv284_1",
+      "dataset": "batik",
+      "path": "files/bde1629d7fb81629.mid",
+      "sha256": "bde1629d7fb8162910e703af3d756d7f62d7ed7eebcda55d0616c8b73e4d12db",
+      "bytes": 26847
+    },
+    {
+      "piece_id": "batik/kv284_2/kv284_2",
+      "dataset": "batik",
+      "path": "files/aab036ebdc070191.mid",
+      "sha256": "aab036ebdc07019112513e387fbb5d14bec05cd57aac09fe389ae84a8c3eb76d",
+      "bytes": 12256
+    },
+    {
+      "piece_id": "batik/kv284_3/kv284_3",
+      "dataset": "batik",
+      "path": "files/4d415247f313da25.mid",
+      "sha256": "4d415247f313da252ab98b7ecf7813d62a5dcaadd449402d469162de9914b093",
+      "bytes": 57157
+    },
+    {
+      "piece_id": "batik/kv330_1/kv330_1",
+      "dataset": "batik",
+      "path": "files/1d84e5435d6f76d6.mid",
+      "sha256": "1d84e5435d6f76d6278ae3a2cada7b48e835077701ba7a44f161b2c8f6b54871",
+      "bytes": 24359
+    },
+    {
+      "piece_id": "batik/kv330_2/kv330_2",
+      "dataset": "batik",
+      "path": "files/df75f656d28a10bb.mid",
+      "sha256": "df75f656d28a10bbe14db1759142d0282127d5860283699c63ae011ab8031cd1",
+      "bytes": 10933
+    },
+    {
+      "piece_id": "batik/kv330_3/kv330_3",
+      "dataset": "batik",
+      "path": "files/96758ec7f8f5aa0c.mid",
+      "sha256": "96758ec7f8f5aa0c07d40add75a11a1f2358b8965dc8ef85d176c48a24b8f8cf",
+      "bytes": 22629
+    },
+    {
+      "piece_id": "batik/kv331_1/kv331_1",
+      "dataset": "batik",
+      "path": "files/19044cd8c1ecbc15.mid",
+      "sha256": "19044cd8c1ecbc157b95e1b941be4ce8757cce1cf96e1bf0d4a629e52d343838",
+      "bytes": 45175
+    },
+    {
+      "piece_id": "batik/kv331_2/kv331_2",
+      "dataset": "batik",
+      "path": "files/ce3bfd119df2ba93.mid",
+      "sha256": "ce3bfd119df2ba93d9882dabdffdaf42cc03c07c707da6f75e728b2a37999294",
+      "bytes": 19682
+    },
+    {
+      "piece_id": "batik/kv331_3/kv331_3",
+      "dataset": "batik",
+      "path": "files/aef235b7f6482dfd.mid",
+      "sha256": "aef235b7f6482dfd4a9e8577f4de950e5648958f8ea767f8f87b6a62408be6f8",
+      "bytes": 19746
+    },
+    {
+      "piece_id": "batik/kv332_1/kv332_1",
+      "dataset": "batik",
+      "path": "files/40270424bffb06c5.mid",
+      "sha256": "40270424bffb06c54505e1e2e16074e74d9cb0d8d0bfbfdef0d6224a1a396f75",
+      "bytes": 25328
+    },
+    {
+      "piece_id": "batik/kv332_2/kv332_2",
+      "dataset": "batik",
+      "path": "files/b24a48b6f17e06ec.mid",
+      "sha256": "b24a48b6f17e06ecde00d035fe5b12158e13e0585ae1605321ecb440b7703f68",
+      "bytes": 10500
+    },
+    {
+      "piece_id": "batik/kv332_3/kv332_3",
+      "dataset": "batik",
+      "path": "files/4ad7f4ff93232e97.mid",
+      "sha256": "4ad7f4ff93232e9714bd6c6bccf8d6afdb73d0e1deffad3cc7ca9731761e375b",
+      "bytes": 29267
+    },
+    {
+      "piece_id": "batik/kv333_1/kv333_1",
+      "dataset": "batik",
+      "path": "files/813d046216d028fc.mid",
+      "sha256": "813d046216d028fc42a08a5f5470ba43416f86046bf7dc3af9af81d332b59ec1",
+      "bytes": 28796
+    },
+    {
+      "piece_id": "batik/kv333_2/kv333_2",
+      "dataset": "batik",
+      "path": "files/0e9547d4c1e1bf33.mid",
+      "sha256": "0e9547d4c1e1bf33369e2b9449e6416649221599ed566efaa2f2adfda23f03b5",
+      "bytes": 14800
+    },
+    {
+      "piece_id": "batik/kv333_3/kv333_3",
+      "dataset": "batik",
+      "path": "files/bf6e5c4d1f3d44e1.mid",
+      "sha256": "bf6e5c4d1f3d44e16f80b8e04bc97df916c679f2f4e2c197cf88303da20c13e3",
+      "bytes": 23689
+    },
+    {
+      "piece_id": "batik/kv457_1/kv457_1",
+      "dataset": "batik",
+      "path": "files/75d2fd55d5e7c2ec.mid",
+      "sha256": "75d2fd55d5e7c2ec28307896b0ebe8a47fe475cce9be517de55a108f474e0454",
+      "bytes": 22479
+    },
+    {
+      "piece_id": "batik/kv457_2/kv457_2",
+      "dataset": "batik",
+      "path": "files/91d1be0ab39fa090.mid",
+      "sha256": "91d1be0ab39fa09081d60f35e05d610e64ab3ebba71224edc4d9c29b44d64311",
+      "bytes": 15367
+    },
+    {
+      "piece_id": "batik/kv457_3/kv457_3",
+      "dataset": "batik",
+      "path": "files/c2cb6e4041ce68b0.mid",
+      "sha256": "c2cb6e4041ce68b087f218e2f11fd628282898c87cbcdab3c9b3c64df9b492b0",
+      "bytes": 15828
+    },
+    {
+      "piece_id": "batik/kv533_1/kv533_1",
+      "dataset": "batik",
+      "path": "files/15a01dd3cf4536c1.mid",
+      "sha256": "15a01dd3cf4536c14016ebdafd534d7aed972ac6d16bf49ae73a7782057c06ed",
+      "bytes": 32802
+    },
+    {
+      "piece_id": "batik/kv533_2/kv533_2",
+      "dataset": "batik",
+      "path": "files/dd17273b546da16f.mid",
+      "sha256": "dd17273b546da16f81345db49f891344ee56e97f720ee17f44272c9c0fc14484",
+      "bytes": 12323
+    },
+    {
+      "piece_id": "batik/kv533_3/kv533_3",
+      "dataset": "batik",
+      "path": "files/0da6d2068bf76173.mid",
+      "sha256": "0da6d2068bf76173351d8db97f2da3c95a11cb76e099655154a234e76918c56b",
+      "bytes": 20425
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p01",
+      "dataset": "vienna",
+      "path": "files/d0dedf98e016f04f.mid",
+      "sha256": "d0dedf98e016f04f2121828286cf99f55d891dc089195b4b28d79734f48831ee",
+      "bytes": 3596
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p02",
+      "dataset": "vienna",
+      "path": "files/a493a7f20e666b42.mid",
+      "sha256": "a493a7f20e666b42feb42868b325f9e8e57525c7467d122635b11009853b90d1",
+      "bytes": 3485
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p03",
+      "dataset": "vienna",
+      "path": "files/8748e12409608be3.mid",
+      "sha256": "8748e12409608be3dc67c095e11ebec55622f25e8c285bcf4ba4998f3bdc010b",
+      "bytes": 3595
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p04",
+      "dataset": "vienna",
+      "path": "files/5f7947f7d6332183.mid",
+      "sha256": "5f7947f7d6332183b1e5bd09438d6b3ee253766635048772546a9affcc9bda83",
+      "bytes": 3589
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p05",
+      "dataset": "vienna",
+      "path": "files/2cf20bc4384ed0fa.mid",
+      "sha256": "2cf20bc4384ed0fa6127da2eca9cb873f4c766ea1dd2679c108e6a2d5fcc04a8",
+      "bytes": 3401
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p06",
+      "dataset": "vienna",
+      "path": "files/fbb2e8440fbef3eb.mid",
+      "sha256": "fbb2e8440fbef3eb680132c5f431739c0aec2a5bf65ccd8a08eb96a776fc4c35",
+      "bytes": 3501
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p08",
+      "dataset": "vienna",
+      "path": "files/4d399484b4a30c4e.mid",
+      "sha256": "4d399484b4a30c4e025ef888a87dd7da42bfac9f1b0447b58366271d49eb9ce3",
+      "bytes": 3417
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p09",
+      "dataset": "vienna",
+      "path": "files/ba28d5314e34f415.mid",
+      "sha256": "ba28d5314e34f415e5e888e9c794ec532caa2a8801df7616addfe50028e07006",
+      "bytes": 3434
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p10",
+      "dataset": "vienna",
+      "path": "files/1066ba966505e5e2.mid",
+      "sha256": "1066ba966505e5e2fcae7d902d35d4df188a21a4c652e9b1104fb356343349d5",
+      "bytes": 3529
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p11",
+      "dataset": "vienna",
+      "path": "files/8ec423a8e63f2143.mid",
+      "sha256": "8ec423a8e63f21430f7fbab689208c836eb9e7ec522b601dc505ca3bbb9a6d75",
+      "bytes": 3635
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p12",
+      "dataset": "vienna",
+      "path": "files/a7682fbbe31f05a0.mid",
+      "sha256": "a7682fbbe31f05a026f6d67b65e5cd82fddf7aa026c30161f58b3fc7e068bcbd",
+      "bytes": 3580
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p13",
+      "dataset": "vienna",
+      "path": "files/881533189c31c774.mid",
+      "sha256": "881533189c31c774f0fcb48234214ba2048a8a674fe1a9a876d670478d51f127",
+      "bytes": 3420
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p14",
+      "dataset": "vienna",
+      "path": "files/734b2cd0651067c3.mid",
+      "sha256": "734b2cd0651067c3af63f0cad630c2414006909ad069f7df99dae3c3e949417a",
+      "bytes": 3450
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p15",
+      "dataset": "vienna",
+      "path": "files/27af1d168b8586a0.mid",
+      "sha256": "27af1d168b8586a0a8e5a2ec3fe0ebe5a1ccc7e18c2ad1577d863c2baf77fb64",
+      "bytes": 3675
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p16",
+      "dataset": "vienna",
+      "path": "files/2a4b249b5e55feb0.mid",
+      "sha256": "2a4b249b5e55feb040f28bf078ec07178fade504ae319a407703cdc0e9003289",
+      "bytes": 3544
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p17",
+      "dataset": "vienna",
+      "path": "files/a821486ca5be2396.mid",
+      "sha256": "a821486ca5be2396a4111deab883eea91d281aa36403dba7244ff96cde4090f7",
+      "bytes": 3543
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p18",
+      "dataset": "vienna",
+      "path": "files/13e7236c6d16c618.mid",
+      "sha256": "13e7236c6d16c618e64ee152f7d5a85ae4ab206c90e81601538958b15399ab4b",
+      "bytes": 3443
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p19",
+      "dataset": "vienna",
+      "path": "files/81dd5e434ac5ab63.mid",
+      "sha256": "81dd5e434ac5ab63a2760d448e4f84a1f1009c879ae90096097beac2200224f9",
+      "bytes": 3540
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p20",
+      "dataset": "vienna",
+      "path": "files/03bd1882fbcd7980.mid",
+      "sha256": "03bd1882fbcd798069fabed6cb1bdc8f637f911a88b21a187e3144c90e1129e4",
+      "bytes": 3644
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p21",
+      "dataset": "vienna",
+      "path": "files/0b76e91cdc24c674.mid",
+      "sha256": "0b76e91cdc24c674fcadc19b3b5ce66214a93b65fd84d97561f0a6c33194384a",
+      "bytes": 3528
+    },
+    {
+      "piece_id": "vienna/Chopin_op10_no3/Chopin_op10_no3_p22",
+      "dataset": "vienna",
+      "path": "files/2311761076e9e49c.mid",
+      "sha256": "2311761076e9e49cf9d066be55d843228cc2ead2088fda553a6dcdf47b7c92bf",
+      "bytes": 3431
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p01",
+      "dataset": "vienna",
+      "path": "files/afc71baeb70b428d.mid",
+      "sha256": "afc71baeb70b428dbecc7f58c9cb105663103a68e3763bee802dea1da0f8673e",
+      "bytes": 5718
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p02",
+      "dataset": "vienna",
+      "path": "files/dd293a263f2d131c.mid",
+      "sha256": "dd293a263f2d131cd1f2909675beeee14870cdd95c455fe948358f4019aef02a",
+      "bytes": 5664
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p03",
+      "dataset": "vienna",
+      "path": "files/63af4de8a87910d4.mid",
+      "sha256": "63af4de8a87910d48691c25f8540f724b95942ed3856226a0d159b41e3648618",
+      "bytes": 6158
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p04",
+      "dataset": "vienna",
+      "path": "files/a03a4c9d690d10d9.mid",
+      "sha256": "a03a4c9d690d10d97c1de156104066cc36b0fd553f47ee1702f4d21a03590224",
+      "bytes": 5837
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p05",
+      "dataset": "vienna",
+      "path": "files/883516fcadd2bfe9.mid",
+      "sha256": "883516fcadd2bfe9bb2072018a7a1189f5dc4bfb84d73b244f101e54d9b2ed6d",
+      "bytes": 5511
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p06",
+      "dataset": "vienna",
+      "path": "files/3061dfb94426ca68.mid",
+      "sha256": "3061dfb94426ca68cd6e0bb6c53708de36d95b9d58a76a5b03dd032f33e8f6c8",
+      "bytes": 5807
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p07",
+      "dataset": "vienna",
+      "path": "files/ca83de5b2bf58163.mid",
+      "sha256": "ca83de5b2bf581635c20558d88ced2e173ab8445d0ca66d7a9c671d77ebde9c2",
+      "bytes": 5767
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p08",
+      "dataset": "vienna",
+      "path": "files/2b7134a961f35a29.mid",
+      "sha256": "2b7134a961f35a2942504378eaf57db4168fe659f071a378d2fd826c0eeffa94",
+      "bytes": 5699
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p09",
+      "dataset": "vienna",
+      "path": "files/c390efb4d0a1bfdc.mid",
+      "sha256": "c390efb4d0a1bfdc2979864e4cd8e2ba8d456125bc2e6f16635cf63340979a79",
+      "bytes": 5683
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p10",
+      "dataset": "vienna",
+      "path": "files/d5826ddccf4ad974.mid",
+      "sha256": "d5826ddccf4ad9748206fa10d24abf88d56f81fc8f8c9581182697d70fc51c58",
+      "bytes": 5669
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p11",
+      "dataset": "vienna",
+      "path": "files/cf68c74fa49ff9ba.mid",
+      "sha256": "cf68c74fa49ff9ba12d4cbd1b25666d2a590f549b2f53898708ae5b070352b73",
+      "bytes": 6190
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p12",
+      "dataset": "vienna",
+      "path": "files/722c5ef1c7b7c4e6.mid",
+      "sha256": "722c5ef1c7b7c4e6e6d95c42979785c867e11c503170af9e487c4227d74ab7ed",
+      "bytes": 5799
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p13",
+      "dataset": "vienna",
+      "path": "files/9bfb57bd032c18b1.mid",
+      "sha256": "9bfb57bd032c18b15f89b083562b401b9f89a16191449d357d1342046709c2bf",
+      "bytes": 6047
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p14",
+      "dataset": "vienna",
+      "path": "files/a81dc7c39577edde.mid",
+      "sha256": "a81dc7c39577edde17dd53758ec75f276fc05eb858f61d723b8d26ee362b151c",
+      "bytes": 5928
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p15",
+      "dataset": "vienna",
+      "path": "files/ff03f18106376898.mid",
+      "sha256": "ff03f18106376898ebc65d27a4ad239e5441dbb02a59919085150eed2d3a00ec",
+      "bytes": 5876
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p16",
+      "dataset": "vienna",
+      "path": "files/9f012b12d064e7f1.mid",
+      "sha256": "9f012b12d064e7f15b8980f55c3f804a043c0316da15bf2716bf5944325caf8d",
+      "bytes": 5604
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p17",
+      "dataset": "vienna",
+      "path": "files/b4b64059b6926e5e.mid",
+      "sha256": "b4b64059b6926e5ebf73dc0c772fa489aa18a011e4efbb9a1d369632d74bae16",
+      "bytes": 5907
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p18",
+      "dataset": "vienna",
+      "path": "files/1919288476cf8572.mid",
+      "sha256": "1919288476cf85728fe6f39b2c72ac9bed9fd1b6c681522c70e3e43ca8bbca51",
+      "bytes": 5573
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p19",
+      "dataset": "vienna",
+      "path": "files/4c01fa7da6d3afd7.mid",
+      "sha256": "4c01fa7da6d3afd7563895c0ed379e14dba95f51b64136ce13e1b6d530b95ee3",
+      "bytes": 5793
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p21",
+      "dataset": "vienna",
+      "path": "files/e5a427a89b3ea7de.mid",
+      "sha256": "e5a427a89b3ea7de8a4e5c4bb44571cbc87740efcad855716e1ca44ee044ae4f",
+      "bytes": 5866
+    },
+    {
+      "piece_id": "vienna/Chopin_op38/Chopin_op38_p22",
+      "dataset": "vienna",
+      "path": "files/e80b0b51b1722d23.mid",
+      "sha256": "e80b0b51b1722d2396aae6f21ea00e5945401a4d3b5a947051322dc44928e173",
+      "bytes": 5668
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p01",
+      "dataset": "vienna",
+      "path": "files/dea321314fffca8e.mid",
+      "sha256": "dea321314fffca8e13a4fcad300ef7be909225098216c8ab6f0ad23895bcb05f",
+      "bytes": 3597
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p02",
+      "dataset": "vienna",
+      "path": "files/fe8c453c2fefa6bd.mid",
+      "sha256": "fe8c453c2fefa6bd5e03d9fdb4cc8aa3235b5b04fc6671b48dd148b886bcd392",
+      "bytes": 3530
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p03",
+      "dataset": "vienna",
+      "path": "files/8b2b6bb0088c9e77.mid",
+      "sha256": "8b2b6bb0088c9e77412a61e322e125b81a8f159dd78e5944aaec5febf622163a",
+      "bytes": 3622
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p04",
+      "dataset": "vienna",
+      "path": "files/9ce23f3eb5d15e64.mid",
+      "sha256": "9ce23f3eb5d15e646c756d4ddfbe7d025bfa872794062c3615204a807e22a893",
+      "bytes": 3644
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p05",
+      "dataset": "vienna",
+      "path": "files/67dab42f042758df.mid",
+      "sha256": "67dab42f042758df8c96ee370dc5f9ef8a0c871ca0bbb3c1c90c0fdd14382fc6",
+      "bytes": 3596
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p06",
+      "dataset": "vienna",
+      "path": "files/90814afce72fee38.mid",
+      "sha256": "90814afce72fee38132690dfe7c6438d85ce69e59c5b7faab91d137baaa29876",
+      "bytes": 3554
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p07",
+      "dataset": "vienna",
+      "path": "files/fa63c93ac30544d1.mid",
+      "sha256": "fa63c93ac30544d13c29ce211ba643cd99faaed805e0ee9db1314442e7436548",
+      "bytes": 3550
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p08",
+      "dataset": "vienna",
+      "path": "files/0abecbcee5086baa.mid",
+      "sha256": "0abecbcee5086baa47582755c3e164c32680da241363a366091e5927994906b7",
+      "bytes": 3571
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p09",
+      "dataset": "vienna",
+      "path": "files/9dbe75aa72d35df9.mid",
+      "sha256": "9dbe75aa72d35df93dd28fefa0b228c49f3db8028c6c79f8099c6d5c2f94140e",
+      "bytes": 3594
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p10",
+      "dataset": "vienna",
+      "path": "files/5866d66ffbd18b0d.mid",
+      "sha256": "5866d66ffbd18b0df37d3450bf4f129aff7d84f6729ae1cdbb2dc8437e4ca6d7",
+      "bytes": 3612
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p11",
+      "dataset": "vienna",
+      "path": "files/c7d785654ff59601.mid",
+      "sha256": "c7d785654ff596013e1ff0fc1e3c00bf92ee0332e9f63c627c957c83bcf7000b",
+      "bytes": 3626
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p12",
+      "dataset": "vienna",
+      "path": "files/3682c94a94788e7c.mid",
+      "sha256": "3682c94a94788e7c3a3df04343a602c903fcae0077c31f74d3a71f9a3ee21421",
+      "bytes": 3594
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p14",
+      "dataset": "vienna",
+      "path": "files/913c085248d1b273.mid",
+      "sha256": "913c085248d1b273d25475ef3294660136ba8d1e89a1c1db27d4fd85bfdf4adb",
+      "bytes": 3584
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p15",
+      "dataset": "vienna",
+      "path": "files/3b8e6c65e7e127a1.mid",
+      "sha256": "3b8e6c65e7e127a10d913a5bdae45392227c544fa4305b8cc00e8f8cdb3025ca",
+      "bytes": 3694
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p16",
+      "dataset": "vienna",
+      "path": "files/310e512854407a45.mid",
+      "sha256": "310e512854407a4598cfed2ba9c97e0a0998b300c13d564958b66b3cbdcbdff7",
+      "bytes": 3608
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p17",
+      "dataset": "vienna",
+      "path": "files/71a0996e3ad5504e.mid",
+      "sha256": "71a0996e3ad5504e5e198363743df006941a3597754eab8a59c3183e4d7f2ce4",
+      "bytes": 3723
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p18",
+      "dataset": "vienna",
+      "path": "files/0b874d17d289ec51.mid",
+      "sha256": "0b874d17d289ec51addf4d75bbca500e5692f9ba9ab9e1b3bae6182d90750c7a",
+      "bytes": 3572
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p19",
+      "dataset": "vienna",
+      "path": "files/d521059f173c5330.mid",
+      "sha256": "d521059f173c5330a72ba265cd13fbf08f8e8039229f3390593ecbd2f2932e2e",
+      "bytes": 3615
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p20",
+      "dataset": "vienna",
+      "path": "files/402b8c77589bb3b1.mid",
+      "sha256": "402b8c77589bb3b136bde1f80505174f810bed8e1bad52a1ec17e2ab29c9547f",
+      "bytes": 3549
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p21",
+      "dataset": "vienna",
+      "path": "files/884bf701f753a8fe.mid",
+      "sha256": "884bf701f753a8fece87299f4ad932b8f867ffd908cf000d9fb648403ed21b1f",
+      "bytes": 3561
+    },
+    {
+      "piece_id": "vienna/Mozart_K331_1st-mov/Mozart_K331_1st-mov_p22",
+      "dataset": "vienna",
+      "path": "files/4acb4cfd1adf5321.mid",
+      "sha256": "4acb4cfd1adf5321d0c642ae4333b7a9248d7ba6439eacf114ecb329484e8092",
+      "bytes": 3572
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p01",
+      "dataset": "vienna",
+      "path": "files/fea79483afef2ce8.mid",
+      "sha256": "fea79483afef2ce816f99aa60fafcd9cf51f767e0f9f4ded7962921497b4bf25",
+      "bytes": 2178
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p02",
+      "dataset": "vienna",
+      "path": "files/f16ff4bda251bf32.mid",
+      "sha256": "f16ff4bda251bf3270074fdb32d280345138bbf0a6aa433dbda679dbd051f25c",
+      "bytes": 2428
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p03",
+      "dataset": "vienna",
+      "path": "files/e658991624b84ab7.mid",
+      "sha256": "e658991624b84ab7131367ec967a6bfa65d982409fd30a130724ea61f339e21a",
+      "bytes": 2407
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p04",
+      "dataset": "vienna",
+      "path": "files/94f46fccfb5bea11.mid",
+      "sha256": "94f46fccfb5bea117c0ff40b0b40f2007f43464d4743e1f64285995df16505a2",
+      "bytes": 2360
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p05",
+      "dataset": "vienna",
+      "path": "files/5f6584b488a450ca.mid",
+      "sha256": "5f6584b488a450cae86ee67a8f1042b05bca35e4d180be2c1fe43a46260da6b2",
+      "bytes": 2314
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p06",
+      "dataset": "vienna",
+      "path": "files/4a9818da05cc5fca.mid",
+      "sha256": "4a9818da05cc5fca5329690331ef3c0259f1b6b254d693185ecdc59208b004a6",
+      "bytes": 2319
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p07",
+      "dataset": "vienna",
+      "path": "files/dd09ec515ee6418f.mid",
+      "sha256": "dd09ec515ee6418ff13d5381780b3aba48541529e943757ce933b37a5f01e695",
+      "bytes": 2313
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p08",
+      "dataset": "vienna",
+      "path": "files/e0cfba6d12e79f1a.mid",
+      "sha256": "e0cfba6d12e79f1aa7508bd56d3b8e89aad93c20597a4913fbc7926d1c047710",
+      "bytes": 2285
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p09",
+      "dataset": "vienna",
+      "path": "files/1faaa9bfdae93672.mid",
+      "sha256": "1faaa9bfdae93672dc138703d029502ba58c0fcef736858edbde0e2c4d43cc4e",
+      "bytes": 2348
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p10",
+      "dataset": "vienna",
+      "path": "files/0b18508b3b0d6149.mid",
+      "sha256": "0b18508b3b0d61490d8e7ff9bcad39e56202c69532a1fde5c3a38cfbe6eb4132",
+      "bytes": 2370
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p11",
+      "dataset": "vienna",
+      "path": "files/87ae1b157999141c.mid",
+      "sha256": "87ae1b157999141c6dc880f7dfae7790b29da9acdbf40c62341cb84e08595d10",
+      "bytes": 2428
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p13",
+      "dataset": "vienna",
+      "path": "files/59c893596636f699.mid",
+      "sha256": "59c893596636f6995a8faaaf58f5a910c38232fab5f4cc8960446f8d77642c84",
+      "bytes": 2316
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p14",
+      "dataset": "vienna",
+      "path": "files/bd51d28024c9bad9.mid",
+      "sha256": "bd51d28024c9bad926e02a33b56de065b3dcbdbaf585fae657da5c14acf62866",
+      "bytes": 2157
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p15",
+      "dataset": "vienna",
+      "path": "files/b87c9c8e077fc012.mid",
+      "sha256": "b87c9c8e077fc012e651b2f8edf245cbe230723fa11e24924b983a08f883f362",
+      "bytes": 2396
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p16",
+      "dataset": "vienna",
+      "path": "files/4c76987496b5755f.mid",
+      "sha256": "4c76987496b5755fb343d5f16e3682b0f692a07c650c3ff75d4cef6d1e2c78cf",
+      "bytes": 2373
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p17",
+      "dataset": "vienna",
+      "path": "files/9185a1eab8f3e091.mid",
+      "sha256": "9185a1eab8f3e09118a9865f14955978cfd905be2a1978b49479cf66bc924c5c",
+      "bytes": 2430
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p18",
+      "dataset": "vienna",
+      "path": "files/f181dcf7ef609927.mid",
+      "sha256": "f181dcf7ef609927410788e31f9d78d5a410247f48b9e87e06fba2e60718dd07",
+      "bytes": 2308
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p19",
+      "dataset": "vienna",
+      "path": "files/bd9c9d60397937de.mid",
+      "sha256": "bd9c9d60397937decf330167a51dd1c4048d06fbd42fab4905a6e8182845ec00",
+      "bytes": 2344
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p20",
+      "dataset": "vienna",
+      "path": "files/c278d49a55359d6b.mid",
+      "sha256": "c278d49a55359d6bfef02d4286c5695129a374502898b3a722823eade4f1a91c",
+      "bytes": 2267
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p21",
+      "dataset": "vienna",
+      "path": "files/e1cdf9c108caa04a.mid",
+      "sha256": "e1cdf9c108caa04af80e145d2ab1fe7981c242ff684fe36b8df3623b9f3fb13d",
+      "bytes": 2267
+    },
+    {
+      "piece_id": "vienna/Schubert_D783_no15/Schubert_D783_no15_p22",
+      "dataset": "vienna",
+      "path": "files/a06990f838710cd0.mid",
+      "sha256": "a06990f838710cd075a2375103542059b2806f4fbf30518a1b60b51a90bf2a99",
+      "bytes": 2355
+    }
+  ]
+}
